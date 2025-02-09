@@ -13,6 +13,7 @@ trimal -in 2-diatom_sequences_forams.alignment.fasta  \
 
 # Generate tree
 	# IQ-TREE v2.3.6
+	
 iqtree2 -s 3-diatom_sequences_forams.trimal.fasta -alrt 1000 -bb 1000 -T 8
 
 # Rename IQ-TREE output
@@ -22,3 +23,6 @@ for file in 3*; do
     mv "$file" "${file/3/4}"
   fi
 done
+
+mv 4-diatom_sequences_forams.trimal.fasta.contree \
+5-diatom_sequences_forams.trimal.fasta.contree.tree
