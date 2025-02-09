@@ -1,0 +1,1330 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    LS-240394-EPS (SSE4.2, 18 GB RAM)
+Command: iqtree2 -s 3-diatom_sequences_forams.trimal.fasta -alrt 1000 -bb 1000 -T 8
+Seed:    555201 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Feb  7 21:16:58 2025
+Kernel:  SSE2 - 8 threads (11 CPU cores detected)
+
+Reading alignment file 3-diatom_sequences_forams.trimal.fasta ... Fasta format detected
+Reading fasta file: done in 0.00654006 secs using 87.83% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 868 sequences with 381 columns, 290 distinct patterns
+232 parsimony-informative, 41 singleton sites, 108 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000190973 secs using 344% CPU
+   1  sq1|Opephora|36                           0.00%    passed     98.80%
+   2  sq2|Punctastriata|31                      0.00%    passed     97.34%
+   3  sq3|Staurosirella_Nanofrustulum|49        0.00%    passed     99.68%
+   4  sq4|Staurosirella_Nanofrustulum|52        0.00%    passed     99.68%
+   5  sq5|Staurosira|53                         0.00%    passed     98.25%
+   6  sq6|Nanofrustulum|81                      0.00%    passed     98.81%
+   7  sq7|Staurosira|53                         0.00%    passed     96.49%
+   8  sq8|Nanofrustulum|39                      0.00%    passed     99.13%
+   9  sq9|Staurosira|36                         0.00%    passed     99.61%
+  10  sq10|Nanofrustulum|100                    0.00%    passed     78.63%
+  11  sq11|Nanofrustulum|86                     0.00%    passed     96.94%
+  12  sq12|Nanofrustulum|35                     0.00%    passed     98.80%
+  13  sq13|Nanofrustulum|100                    0.00%    passed     78.63%
+  14  sq14|Staurosira|51                        0.00%    passed     87.12%
+  15  sq16|Staurosira|49                        0.00%    passed     92.19%
+  16  sq17|Nanofrustulum|53                     0.00%    passed     98.84%
+  17  sq21|Psammodictyon|100                    0.00%    passed     94.61%
+  18  sq22|Staurosirella_Nanofrustulum|47       0.00%    passed     99.10%
+  19  sq26|Staurosirella_Nanofrustulum|30       0.00%    passed     97.97%
+  20  sq27|Staurosira|33                        0.00%    passed     88.64%
+  21  sq28|Nanofrustulum|100                    0.00%    passed     71.30%
+  22  sq30|Nanofrustulum|75                     0.00%    passed     99.28%
+  23  sq33|Nanofrustulum|100                    0.00%    passed     81.11%
+  24  sq34|Nanofrustulum|100                    0.00%    passed     82.60%
+  25  sq35|Nanofrustulum|100                    0.00%    passed     73.11%
+  26  sq36|Staurosira|42                        0.00%    passed     96.49%
+  27  sq38|Navicula|100                         0.00%    passed     84.98%
+  28  sq46|Nanofrustulum|100                    0.00%    passed     73.11%
+  29  sq47|Nanofrustulum|53                     0.00%    passed     99.18%
+  30  sq48|Punctastriata|37                     0.00%    passed     95.60%
+  31  sq54|Staurosira|31                        0.00%    passed     97.18%
+  32  sq56|Stauroneis|72                        1.31%    passed     80.21%
+  33  sq57|Opephora|33                          0.00%    passed     99.57%
+  34  sq58|Punctastriata|40                     0.00%    passed     95.60%
+  35  sq60|Opephora|41                          0.00%    passed     99.61%
+  36  sq63|Skeletonema|100                      0.00%    passed     39.62%
+  37  sq64|Opephora|34                          0.00%    passed     99.18%
+  38  sq67|Staurosirella_Nanofrustulum|28       0.00%    passed     98.76%
+  39  sq69|Staurosirella_Nanofrustulum|40       0.00%    passed     99.10%
+  40  sq73|Nanofrustulum|100                    0.00%    passed     81.11%
+  41  sq76|Staurosirella_Nanofrustulum|45       0.00%    passed     97.18%
+  42  sq79|Nanofrustulum|100                    0.00%    passed     89.63%
+  43  sq80|Staurosirella_Nanofrustulum|45       0.00%    passed     99.10%
+  44  sq81|Nanofrustulum|100                    0.00%    passed     84.80%
+  45  sq83|Staurosirella_Nanofrustulum|35       0.00%    passed     97.60%
+  46  sq84|Opephora|34                          0.00%    passed     99.57%
+  47  sq88|Nanofrustulum|27                     0.00%    passed     99.61%
+  48  sq96|Staurosira|45                        0.00%    passed     99.73%
+  49  sq97|Staurosira|57                        0.00%    passed     92.64%
+  50  sq100|Nanofrustulum|100                   0.00%    passed     77.97%
+  51  sq101|Opephora|34                         0.00%    passed     99.62%
+  52  sq103|Staurosira|21                       0.00%    passed     97.34%
+  53  sq105|Staurosirella_Nanofrustulum|17      0.00%    passed     95.43%
+  54  sq108|Nanofrustulum|66                    0.00%    passed     98.84%
+  55  sq112|Staurosira|59                       0.00%    passed     99.01%
+  56  sq113|Opephora|31                         0.00%    passed     97.18%
+  57  sq117|Staurosirella_Nanofrustulum|43      0.00%    passed     99.98%
+  58  sq120|Staurosirella_Nanofrustulum|37      0.00%    passed     99.61%
+  59  sq122|Nanofrustulum|81                    0.00%    passed     99.36%
+  60  sq123|Nanofrustulum|75                    0.00%    passed     98.15%
+  61  sq128|Staurosirella_Nanofrustulum|44      0.00%    passed     99.98%
+  62  sq130|Opephora|48                         0.00%    passed     99.13%
+  63  sq136|Punctastriata|43                    0.00%    passed     98.22%
+  64  sq138|Staurosira|39                       0.00%    passed     98.49%
+  65  sq148|Staurosirella_Nanofrustulum|34      0.00%    passed     99.61%
+  66  sq149|Staurosira|37                       0.00%    passed     98.81%
+  67  sq151|Staurosirella_Nanofrustulum|45      0.00%    passed     98.76%
+  68  sq158|Opephora|31                         0.00%    passed     97.18%
+  69  sq160|Staurosirella_Nanofrustulum|30      0.00%    passed     99.73%
+  70  sq162|Opephora|33                         0.00%    passed     97.60%
+  71  sq164|Opephora|29                         0.00%    passed     96.89%
+  72  sq167|Punctastriata|24                    0.00%    passed     98.22%
+  73  sq170|Staurosira|52                       0.00%    passed     96.79%
+  74  sq173|Opephora|22                         0.00%    passed     99.10%
+  75  sq175|Staurosirella_Nanofrustulum|28      0.00%    passed     99.73%
+  76  sq179|Nanofrustulum|39                    0.00%    passed     97.67%
+  77  sq182|Nanofrustulum|66                    0.00%    passed     99.98%
+  78  sq190|Minutocellus|100                    0.00%    passed     96.32%
+  79  sq192|Staurosirella_Nanofrustulum|23      0.00%    passed     95.43%
+  80  sq195|Staurosirella_Nanofrustulum|27      0.00%    passed     98.66%
+  81  sq196|Punctastriata|39                    0.00%    passed     97.34%
+  82  sq201|Nanofrustulum|100                   0.00%    passed     81.11%
+  83  sq202|Opephora|38                         0.00%    passed     97.60%
+  84  sq205|Nanofrustulum|47                    0.00%    passed     99.86%
+  85  sq206|Staurosirella_Nanofrustulum|36      0.00%    passed     99.10%
+  86  sq207|Punctastriata|29                    0.00%    passed     98.22%
+  87  sq208|Nanofrustulum|100                   0.00%    passed     84.80%
+  88  sq216|Nanofrustulum|34                    0.00%    passed     99.61%
+  89  sq217|Opephora|34                         0.00%    passed     97.95%
+  90  sq219|Staurosira|37                       0.00%    passed     99.66%
+  91  sq220|Staurosirella_Nanofrustulum|50      0.00%    passed     98.76%
+  92  sq228|Staurosirella_Nanofrustulum|41      0.00%    passed     98.76%
+  93  sq237|Staurosirella_Nanofrustulum|51      0.00%    passed     98.76%
+  94  sq242|Staurosirella_Nanofrustulum|35      0.00%    passed     98.49%
+  95  sq243|Staurosirella_Nanofrustulum|27      0.00%    passed     96.79%
+  96  sq245|Nanofrustulum|100                   0.00%    passed     81.11%
+  97  sq251|Punctastriata|32                    0.00%    passed     95.60%
+  98  sq252|Opephora|36                         0.00%    passed     97.18%
+  99  sq257|Staurosira|32                       0.00%    passed     98.25%
+ 100  sq260|Staurosirella_Nanofrustulum|39      0.00%    passed     98.76%
+ 101  sq262|Opephora|35                         0.00%    passed     99.57%
+ 102  sq263|Nanofrustulum|59                    0.00%    passed     99.94%
+ 103  sq266|Staurosira|42                       0.00%    passed     92.19%
+ 104  sq267|Cylindrotheca|100                   0.00%    passed     90.86%
+ 105  sq271|Staurosira|39                       0.00%    passed     99.80%
+ 106  sq272|Staurosira|53                       0.00%    passed     99.01%
+ 107  sq274|Staurosira|43                       0.00%    passed     99.13%
+ 108  sq277|Nanofrustulum|100                   0.00%    passed     84.80%
+ 109  sq280|Nitzschia|72                        0.79%    passed     45.78%
+ 110  sq286|Psammodictyon|100                   0.00%    passed     82.07%
+ 111  sq288|Staurosira|49                       0.00%    passed     99.01%
+ 112  sq290|Staurosira|29                       0.00%    passed     98.25%
+ 113  sq291|Psammodictyon|94                    0.00%    passed     97.78%
+ 114  sq310|Staurosira|40                       0.00%    passed     95.74%
+ 115  sq311|Staurosira|63                       0.00%    passed     99.01%
+ 116  sq318|Opephora|27                         0.00%    passed     99.61%
+ 117  sq323|Staurosirella_Nanofrustulum|28      0.00%    passed     95.60%
+ 118  sq326|Nanofrustulum|76                    0.00%    passed     99.28%
+ 119  sq334|Nanofrustulum|55                    0.00%    passed     99.28%
+ 120  sq353|Seminavis|52                        0.00%    passed     98.95%
+ 121  sq354|Staurosira|60                       0.00%    passed     96.10%
+ 122  sq355|Nanofrustulum|72                    0.00%    passed     97.38%
+ 123  sq358|Navicula|100                        0.00%    passed     84.98%
+ 124  sq360|Staurosirella_Nanofrustulum|44      0.00%    passed     98.76%
+ 125  sq361|Staurosira|36                       0.00%    passed     96.79%
+ 126  sq366|Staurosira|26                       0.00%    passed     99.28%
+ 127  sq374|Staurosirella_Nanofrustulum|34      0.00%    passed     99.80%
+ 128  sq379|Staurosira|53                       0.00%    passed     88.64%
+ 129  sq385|Staurosira|58                       0.00%    passed     94.45%
+ 130  sq388|Nanofrustulum|48                    0.00%    passed     99.57%
+ 131  sq391|Nanofrustulum|100                   0.00%    passed     84.80%
+ 132  sq395|Staurosira|53                       0.00%    passed     98.99%
+ 133  sq398|Nanofrustulum|56                    0.00%    passed     99.61%
+ 134  sq408|Punctastriata|19                    0.00%    passed     99.57%
+ 135  sq409|Nanofrustulum|73                    0.00%    passed     99.28%
+ 136  sq411|Opephora|31                         0.00%    passed     97.60%
+ 137  sq413|Nanofrustulum|100                   0.00%    passed     76.01%
+ 138  sq422|Navicula|100                        0.00%    passed     82.34%
+ 139  sq430|Staurosira|61                       0.00%    passed     97.34%
+ 140  sq436|Staurosirella_Nanofrustulum|22      0.00%    passed     99.80%
+ 141  sq440|Nanofrustulum|100                   0.00%    passed     81.11%
+ 142  sq450|Staurosirella_Nanofrustulum|39      0.00%    passed     99.62%
+ 143  sq461|Nanofrustulum|38                    0.00%    passed     99.18%
+ 144  sq464|Staurosira|41                       0.00%    passed     98.22%
+ 145  sq474|Psammodictyon|100                   0.00%    passed     93.83%
+ 146  sq475|Staurosirella_Nanofrustulum|41      0.00%    passed     98.46%
+ 147  sq491|Staurosirella_Nanofrustulum|41      0.00%    passed     98.99%
+ 148  sq494|Psammodictyon|99                    0.00%    passed     96.23%
+ 149  sq497|Punctastriata|26                    0.00%    passed     99.66%
+ 150  sq503|Nanofrustulum|51                    0.00%    passed     99.18%
+ 151  sq520|Staurosira|48                       0.00%    passed     98.25%
+ 152  sq523|Staurosirella_Nanofrustulum|41      0.00%    passed     98.46%
+ 153  sq554|Punctastriata|22                    0.00%    passed     99.66%
+ 154  sq561|Psammodictyon|100                   0.00%    passed     85.23%
+ 155  sq562|Opephora|40                         0.00%    passed     99.66%
+ 156  sq568|Nanofrustulum|100                   0.00%    passed     84.80%
+ 157  sq573|Staurosirella_Nanofrustulum|33      0.00%    passed     97.91%
+ 158  sq583|Nanofrustulum|35                    0.00%    passed     99.57%
+ 159  sq589|Staurosira|29                       0.00%    passed     97.38%
+ 160  sq597|Staurosirella_Nanofrustulum|48      0.00%    passed     99.66%
+ 161  sq612|Psammodictyon|100                   0.00%    passed     96.62%
+ 162  sq626|Psammodictyon|100                   0.00%    passed     91.29%
+ 163  sq630|Staurosira|47                       0.00%    passed     98.25%
+ 164  sq642|Thalassiosira|94                    0.00%    passed     94.87%
+ 165  sq646|Punctastriata|43                    0.00%    passed     95.98%
+ 166  sq654|Nitzschia|67                        0.79%    passed     47.99%
+ 167  sq659|Opephora|36                         0.00%    passed     99.57%
+ 168  sq662|Psammodictyon|98                    0.00%    passed     95.61%
+ 169  sq664|Nanofrustulum|100                   0.00%    passed     81.11%
+ 170  sq668|Staurosirella_Nanofrustulum|18      0.00%    passed     99.75%
+ 171  sq681|Nanofrustulum|49                    0.00%    passed     99.77%
+ 172  sq684|Staurosirella_Nanofrustulum|45      0.00%    passed     98.99%
+ 173  sq693|Nanofrustulum|47                    0.00%    passed     99.28%
+ 174  sq705|Navicula|100                        0.00%    passed     91.94%
+ 175  sq710|Nanofrustulum|80                    0.00%    passed     99.66%
+ 176  sq723|Punctastriata|47                    0.00%    passed     97.91%
+ 177  sq724|Opephora|32                         0.00%    passed     99.18%
+ 178  sq730|Stauroneis|69                       2.36%    passed     99.71%
+ 179  sq740|Staurosira|48                       0.00%    passed     88.64%
+ 180  sq750|Nanofrustulum|100                   0.00%    passed     90.90%
+ 181  sq759|Punctastriata|30                    0.00%    passed     95.98%
+ 182  sq766|Opephora|26                         0.00%    passed     99.10%
+ 183  sq772|Araphid-pennate_X|27                0.00%    passed     97.54%
+ 184  sq785|Nanofrustulum|35                    0.00%    passed     97.67%
+ 185  sq792|Nanofrustulum|100                   0.00%    passed     84.80%
+ 186  sq800|Nanofrustulum|35                    0.00%    passed     99.80%
+ 187  sq810|Psammoneis|100                      0.00%    passed     77.86%
+ 188  sq820|Staurosira|47                       0.00%    passed     96.10%
+ 189  sq821|Staurosira|35                       0.00%    passed     98.99%
+ 190  sq825|Staurosirella_Nanofrustulum|47      0.00%    passed     97.60%
+ 191  sq826|Nanofrustulum|38                    0.00%    passed     99.28%
+ 192  sq829|Psammodictyon|100                   0.00%    passed     96.62%
+ 193  sq833|Amphora|98                          1.57%    passed     91.39%
+ 194  sq837|Nanofrustulum|100                   0.00%    passed     83.32%
+ 195  sq840|Stauroneis|53                       1.31%    passed     80.21%
+ 196  sq841|Staurosira|44                       0.00%    passed     93.59%
+ 197  sq842|Nanofrustulum|66                    0.00%    passed     99.56%
+ 198  sq848|Nanofrustulum|41                    0.00%    passed     99.17%
+ 199  sq854|Staurosirella_Nanofrustulum|39      0.00%    passed     99.10%
+ 200  sq857|Staurosira|50                       0.00%    passed     97.34%
+ 201  sq884|Navicula|96                         0.00%    passed     76.94%
+ 202  sq889|Opephora|40                         0.00%    passed     97.18%
+ 203  sq895|Punctastriata|41                    0.00%    passed     97.91%
+ 204  sq902|Stauroneis|66                       1.31%    passed     72.54%
+ 205  sq907|Stauroneis|67                       1.31%    passed     78.61%
+ 206  sq911|Punctastriata|26                    0.00%    passed     97.54%
+ 207  sq917|Nanofrustulum|40                    0.00%    passed     99.61%
+ 208  sq920|Cymbella|82                         2.10%    passed     97.07%
+ 209  sq921|Staurosira|47                       0.00%    passed     96.10%
+ 210  sq928|Nanofrustulum|100                   0.00%    passed     84.80%
+ 211  sq933|Nanofrustulum|75                    0.00%    passed     98.18%
+ 212  sq942|Staurosirella_Nanofrustulum|36      0.00%    passed     99.10%
+ 213  sq947|Nitzschia|93                        0.79%    passed     31.90%
+ 214  sq948|Navicula|99                         0.00%    passed     86.64%
+ 215  sq960|Nanofrustulum|38                    0.00%    passed     99.10%
+ 216  sq961|Navicula|99                         0.00%    passed     99.16%
+ 217  sq966|Stauroneis|65                       1.31%    passed     86.65%
+ 218  sq975|Surirella|100                       1.57%    passed     95.22%
+ 219  sq977|Punctastriata|19                    0.00%    passed     99.66%
+ 220  sq982|Staurosira|40                       0.00%    passed     93.59%
+ 221  sq983|Nanofrustulum|41                    0.00%    passed     98.65%
+ 222  sq990|Nanofrustulum|29                    0.00%    passed     98.26%
+ 223  sq998|Nanofrustulum|75                    0.00%    passed     97.38%
+ 224  sq1001|Staurosira|51                      0.00%    passed     97.37%
+ 225  sq1009|Nanofrustulum|89                   0.00%    passed     99.36%
+ 226  sq1015|Staurosirella_Nanofrustulum|39     0.00%    passed     98.60%
+ 227  sq1030|Amphora|98                         1.57%    passed     87.07%
+ 228  sq1031|Psammodictyon|100                  0.00%    passed     95.98%
+ 229  sq1050|Staurosira|51                      0.00%    passed     97.37%
+ 230  sq1064|Opephora|36                        0.00%    passed     98.57%
+ 231  sq1067|Staurosira|38                      0.00%    passed     98.89%
+ 232  sq1075|Staurosirella_Nanofrustulum|39     0.00%    passed     99.66%
+ 233  sq1078|Staurosira|40                      0.00%    passed     97.34%
+ 234  sq1090|Staurosirella_Nanofrustulum|27     0.00%    passed     99.90%
+ 235  sq1091|Stauroneis|71                      1.31%    passed     72.54%
+ 236  sq1096|Staurosirella_Nanofrustulum|47     0.00%    passed     99.35%
+ 237  sq1097|Psammodictyon|100                  0.00%    passed     91.29%
+ 238  sq1106|Navicula|100                       0.00%    passed     86.64%
+ 239  sq1116|Nanofrustulum|100                  0.00%    passed     87.24%
+ 240  sq1137|Nanofrustulum|78                   0.00%    passed     99.66%
+ 241  sq1138|Nanofrustulum|28                   0.00%    passed     99.10%
+ 242  sq1146|Staurosira|27                      0.00%    passed     95.74%
+ 243  sq1166|Nanofrustulum|100                  0.00%    passed     90.90%
+ 244  sq1180|Nanofrustulum|31                   0.00%    passed     98.26%
+ 245  sq1185|Staurosirella_Nanofrustulum|30     0.00%    passed     97.75%
+ 246  sq1186|Nitzschia|72                       0.79%    passed     57.69%
+ 247  sq1192|Stauroneis|52                      1.31%    passed     72.54%
+ 248  sq1194|Minutocellus|100                   0.00%    passed     93.29%
+ 249  sq1200|Staurosira|48                      0.00%    passed     98.99%
+ 250  sq1225|Nitzschia|60                       0.79%    passed     55.36%
+ 251  sq1237|Minutocellus|100                   0.00%    passed     94.27%
+ 252  sq1241|Punctastriata|31                   0.00%    passed     99.77%
+ 253  sq1261|Staurosira|37                      0.00%    passed     98.89%
+ 254  sq1264|Nanofrustulum|64                   0.00%    passed     99.36%
+ 255  sq1268|Staurosira|34                      0.00%    passed     99.68%
+ 256  sq1269|Cymbella|83                        2.10%    passed     95.31%
+ 257  sq1273|Nanofrustulum|70                   0.00%    passed     99.17%
+ 258  sq1295|Staurosira|50                      0.00%    passed     99.80%
+ 259  sq1305|Staurosira|44                      0.00%    passed     95.38%
+ 260  sq1321|Nitzschia|80                       0.79%    passed     49.60%
+ 261  sq1333|Nitzschia|44                       0.26%    passed     60.51%
+ 262  sq1341|Staurosira|35                      0.00%    passed     98.66%
+ 263  sq1350|Staurosirella_Nanofrustulum|21     0.00%    passed     99.94%
+ 264  sq1351|Nitzschia|76                       0.79%    passed     50.15%
+ 265  sq1354|Staurosira|41                      0.00%    passed     96.10%
+ 266  sq1360|Nanofrustulum|77                   0.00%    passed     99.66%
+ 267  sq1372|Nitzschia|84                       0.79%    passed     77.77%
+ 268  sq1373|Nanofrustulum|99                   0.00%    passed     73.37%
+ 269  sq1374|Opephora|46                        0.00%    passed     97.18%
+ 270  sq1381|Staurosirella_Nanofrustulum|30     0.00%    passed     99.66%
+ 271  sq1391|Nanofrustulum|93                   0.00%    passed     88.71%
+ 272  sq1397|Nanofrustulum|67                   0.00%    passed     99.66%
+ 273  sq1399|Staurosira|48                      0.00%    passed     96.10%
+ 274  sq1416|Psammodictyon|100                  0.00%    passed     80.30%
+ 275  sq1422|Staurosira|49                      0.00%    passed     98.23%
+ 276  sq1423|Stauroneis|69                      1.31%    passed     78.61%
+ 277  sq1425|Nanofrustulum|51                   0.00%    passed     99.86%
+ 278  sq1443|Entomoneis|63                      2.36%    passed     95.97%
+ 279  sq1462|Stauroneis|64                      1.31%    passed     86.65%
+ 280  sq1492|Psammodictyon|100                  0.00%    passed     97.78%
+ 281  sq1505|Staurosira|35                      0.00%    passed     98.95%
+ 282  sq1514|Nanofrustulum|36                   0.00%    passed     99.83%
+ 283  sq1519|Pseudostaurosiropsis|38            0.00%    passed     98.99%
+ 284  sq1525|Nanofrustulum|69                   0.00%    passed     98.84%
+ 285  sq1527|Navicula|100                       0.00%    passed     90.38%
+ 286  sq1529|Amphiprora|81                      2.36%    passed     99.55%
+ 287  sq1551|Nanofrustulum|50                   0.00%    passed     99.83%
+ 288  sq1552|Nanofrustulum|87                   0.00%    passed     99.94%
+ 289  sq1564|Stauroneis|62                      1.31%    passed     75.98%
+ 290  sq1565|Stauroneis|32                      1.31%    passed     75.13%
+ 291  sq1566|Nanofrustulum|55                   0.00%    passed     99.73%
+ 292  sq1569|Staurosirella_Nanofrustulum|17     0.00%    passed     98.89%
+ 293  sq1573|Nanofrustulum|49                   0.00%    passed     99.83%
+ 294  sq1574|Nanofrustulum|54                   0.00%    passed     99.83%
+ 295  sq1575|Navicula|82                        0.00%    passed     98.89%
+ 296  sq1580|Staurosira|45                      0.00%    passed     97.70%
+ 297  sq1589|Staurosirella_Nanofrustulum|31     0.00%    passed     96.36%
+ 298  sq1596|Opephora|22                        0.00%    passed     98.12%
+ 299  sq1603|Nanofrustulum|66                   0.00%    passed     99.21%
+ 300  sq1613|Staurosira|36                      0.00%    passed     95.43%
+ 301  sq1617|Nitzschia|82                       0.79%    passed     55.36%
+ 302  sq1622|Stauroneis|62                      1.57%    passed     98.06%
+ 303  sq1637|Staurosirella_Nanofrustulum|30     0.00%    passed     99.77%
+ 304  sq1641|Nanofrustulum|37                   0.00%    passed     99.57%
+ 305  sq1642|Nanofrustulum|30                   0.00%    passed     99.83%
+ 306  sq1643|Stauroneis|80                      1.31%    passed     86.65%
+ 307  sq1650|Stauroneis|64                      1.31%    passed     72.54%
+ 308  sq1655|Staurosira|35                      0.00%    passed     99.80%
+ 309  sq1656|Nitzschia|65                       0.79%    passed     54.60%
+ 310  sq1674|Psammodictyon|100                  0.00%    passed     91.29%
+ 311  sq1688|Nanofrustulum|100                  0.00%    passed     84.80%
+ 312  sq1699|Opephora|38                        0.00%    passed     98.95%
+ 313  sq1705|Nanofrustulum|49                   0.00%    passed     99.61%
+ 314  sq1710|Nanofrustulum|100                  0.00%    passed     89.63%
+ 315  sq1732|Nanofrustulum|100                  0.00%    passed     81.11%
+ 316  sq1733|Nanofrustulum|51                   0.00%    passed     98.84%
+ 317  sq1754|Staurosirella_Nanofrustulum|18     0.00%    passed     98.42%
+ 318  sq1776|Psammodictyon|94                   0.00%    passed     97.82%
+ 319  sq1781|Nanofrustulum|76                   0.00%    passed     97.88%
+ 320  sq1799|Opephora|41                        0.00%    passed     99.62%
+ 321  sq1805|Nanofrustulum|92                   0.00%    passed     87.24%
+ 322  sq1818|Raphid-pennate_X|39                1.31%    passed     76.94%
+ 323  sq1836|Punctastriata|27                   0.00%    passed     99.80%
+ 324  sq1885|Staurosira|45                      0.00%    passed     93.59%
+ 325  sq1922|Stauroneis|58                      1.31%    passed     72.54%
+ 326  sq1933|Nitzschia|76                       0.79%    passed     51.46%
+ 327  sq1934|Nitzschia|75                       0.79%    passed     51.61%
+ 328  sq1940|Psammodictyon|100                  0.00%    passed     94.66%
+ 329  sq1947|Nanofrustulum|99                   0.00%    passed     79.67%
+ 330  sq1948|Stauroneis|51                      1.31%    passed     89.23%
+ 331  sq1949|Navicula|71                        0.00%    passed     94.11%
+ 332  sq1950|Staurosira|35                      0.00%    passed     95.72%
+ 333  sq1966|Bacillaria|16                      0.00%    passed     94.87%
+ 334  sq1982|Nanofrustulum|100                  0.00%    passed     79.67%
+ 335  sq1987|Nitzschia|89                       1.31%    passed     91.34%
+ 336  sq2007|Opephora|43                        0.00%    passed     99.97%
+ 337  sq2030|Staurosira|48                      0.00%    passed     98.66%
+ 338  sq2053|Psammodictyon|100                  0.00%    passed     82.08%
+ 339  sq2067|Nanofrustulum|100                  0.00%    passed     87.24%
+ 340  sq2097|Stauroneis|73                      1.31%    passed     80.83%
+ 341  sq2113|Nanofrustulum|42                   0.00%    passed     99.13%
+ 342  sq2164|Stauroneis|68                      1.31%    passed     64.00%
+ 343  sq2183|Raphid-pennate_X|46                1.31%    passed     76.05%
+ 344  sq2215|Nanofrustulum|75                   0.00%    passed     98.18%
+ 345  sq2229|Stauroneis|71                      1.31%    passed     70.16%
+ 346  sq2232|Pseudostaurosiropsis|47            0.00%    passed     99.17%
+ 347  sq2240|Staurosirella_Nanofrustulum|40     0.00%    passed     99.10%
+ 348  sq2241|Amphora|54                         2.36%    passed     98.51%
+ 349  sq2277|Navicula|100                       0.00%    passed     93.38%
+ 350  sq2286|Nitzschia|56                       1.57%    passed     82.04%
+ 351  sq2290|Entomoneis|58                      2.36%    passed     91.48%
+ 352  sq2291|Minutocellus|49                    0.00%    passed     98.23%
+ 353  sq2299|Psammodictyon|99                   0.00%    passed     86.54%
+ 354  sq2318|Minutocellus|55                    0.00%    passed     94.12%
+ 355  sq2324|Nitzschia|89                       0.79%    passed     50.00%
+ 356  sq2333|Staurosira|42                      0.00%    passed     99.06%
+ 357  sq2334|Staurosira|42                      0.00%    passed     99.20%
+ 358  sq2365|Psammodictyon|94                   0.00%    passed     96.38%
+ 359  sq2367|Stauroneis|51                      1.31%    passed     72.54%
+ 360  sq2368|Nitzschia|80                       0.79%    passed     39.69%
+ 361  sq2391|Nanofrustulum|87                   0.00%    passed     99.36%
+ 362  sq2399|Nanofrustulum|100                  0.00%    passed     84.80%
+ 363  sq2400|Psammodictyon|74                   0.00%    passed     81.74%
+ 364  sq2448|Synedra|81                         0.79%    passed     99.66%
+ 365  sq2460|Staurosira|50                      0.00%    passed     97.98%
+ 366  sq2502|Nanofrustulum|98                   0.00%    passed     78.63%
+ 367  sq2513|Navicula|100                       0.00%    passed     88.46%
+ 368  sq2525|Staurosira|37                      0.00%    passed     95.74%
+ 369  sq2526|Navicula|91                        0.00%    passed     96.25%
+ 370  sq2554|Opephora|39                        0.00%    passed     99.05%
+ 371  sq2571|Rhopalodia|39                      2.36%    passed     98.61%
+ 372  sq2574|Stauroneis|67                      1.31%    passed     75.98%
+ 373  sq2576|Psammodictyon|100                  0.00%    passed     82.08%
+ 374  sq2577|Staurosirella_Nanofrustulum|32     0.00%    passed     99.96%
+ 375  sq2590|Navicula|100                       0.52%    passed     69.04%
+ 376  sq2591|Psammodictyon|97                   0.00%    passed     85.26%
+ 377  sq2592|Cymbella|78                        1.84%    passed     96.68%
+ 378  sq2598|Pauliella|35                       1.84%    passed     89.80%
+ 379  sq2604|Amphora|73                         2.10%    passed     97.96%
+ 380  sq2609|Nanofrustulum|49                   0.00%    passed     99.36%
+ 381  sq2611|Staurosirella_Nanofrustulum|18     0.00%    passed     99.80%
+ 382  sq2621|Staurosirella_Nanofrustulum|30     0.00%    passed     99.01%
+ 383  sq2622|Staurosirella_Nanofrustulum|42     0.00%    passed     99.13%
+ 384  sq2623|Staurosira|42                      0.00%    passed     92.19%
+ 385  sq2625|Punctastriata|18                   0.00%    passed     99.57%
+ 386  sq2639|Pseudogomphonema|65                0.00%    passed     99.66%
+ 387  sq2656|Staurosira|37                      0.00%    passed     99.01%
+ 388  sq2667|Staurosira|41                      0.00%    passed     96.94%
+ 389  sq2668|Navicula|100                       0.00%    passed     94.29%
+ 390  sq2670|Staurosira|36                      0.00%    passed     97.70%
+ 391  sq2710|Staurosira|32                      0.00%    passed     99.66%
+ 392  sq2722|Staurosira|53                      0.00%    passed     93.59%
+ 393  sq2726|Nanofrustulum|74                   0.00%    passed     98.12%
+ 394  sq2732|Staurosira|30                      0.00%    passed     99.77%
+ 395  sq2748|Stauroneis|59                      1.31%    passed     72.54%
+ 396  sq2749|Nanofrustulum|100                  0.00%    passed     81.11%
+ 397  sq2760|Opephora|28                        0.00%    passed     99.83%
+ 398  sq2790|Nanofrustulum|100                  0.00%    passed     87.24%
+ 399  sq2807|Staurosira|59                      0.00%    passed     94.59%
+ 400  sq2820|Staurosira|63                      0.00%    passed     92.55%
+ 401  sq2821|Araphid-pennate_X|45               0.00%    passed     96.85%
+ 402  sq2825|Nanofrustulum|34                   0.00%    passed     97.67%
+ 403  sq2837|Staurosira|36                      0.00%    passed     98.25%
+ 404  sq2839|Staurosira|37                      0.00%    passed     99.83%
+ 405  sq2855|Nanofrustulum|100                  0.00%    passed     89.63%
+ 406  sq2896|Nanofrustulum|100                  0.00%    passed     85.34%
+ 407  sq2898|Staurosirella_Nanofrustulum|41     0.00%    passed     95.90%
+ 408  sq2900|Opephora|40                        0.00%    passed     99.36%
+ 409  sq2914|Cymbella|41                        1.31%    passed     88.72%
+ 410  sq2927|Surirella|89                       1.84%    passed     92.37%
+ 411  sq2930|Punctastriata|39                   0.00%    passed     97.89%
+ 412  sq2932|Stauroneis|67                      1.31%    passed     80.83%
+ 413  sq2933|Pseudostaurosiropsis|24            0.00%    passed     93.35%
+ 414  sq2954|Stauroneis|69                      1.31%    passed     54.38%
+ 415  sq2978|Stauroneis|83                      1.31%    passed     90.71%
+ 416  sq2990|Nitzschia|82                       0.79%    passed     52.69%
+ 417  sq3049|Nanofrustulum|100                  0.00%    passed     87.24%
+ 418  sq3054|Psammodictyon|100                  0.00%    passed     94.66%
+ 419  sq3070|Staurosirella_Nanofrustulum|37     0.00%    passed     99.90%
+ 420  sq3071|Nanofrustulum|100                  0.00%    passed     91.94%
+ 421  sq3073|Araphid-pennate_X|34               0.00%    passed     96.85%
+ 422  sq3074|Raphid-pennate_X|19                2.10%    passed     95.61%
+ 423  sq3106|Nanofrustulum|61                   0.00%    passed     99.28%
+ 424  sq3121|Opephora|32                        0.00%    passed     97.95%
+ 425  sq3145|Psammodictyon|100                  0.00%    passed     78.24%
+ 426  sq3146|Staurosirella_Nanofrustulum|28     0.00%    passed     95.68%
+ 427  sq3163|Staurosira|58                      0.00%    passed     99.66%
+ 428  sq3164|Stauroneis|74                      1.31%    passed     80.83%
+ 429  sq3169|Opephora|26                        0.00%    passed     99.29%
+ 430  sq3190|Rhopalodia|71                      2.36%    passed     99.23%
+ 431  sq3191|Staurosirella_Nanofrustulum|39     0.00%    passed     99.66%
+ 432  sq3192|Nanofrustulum|100                  0.00%    passed     80.34%
+ 433  sq3195|Nitzschia|51                       0.26%    passed     97.11%
+ 434  sq3196|Nanofrustulum|100                  0.00%    passed     91.88%
+ 435  sq3197|Raphid-pennate_X|41                0.79%    passed     84.93%
+ 436  sq3198|Minutocellus|99                    0.00%    passed     96.32%
+ 437  sq3223|Staurosira|29                      0.00%    passed     96.94%
+ 438  sq3250|Staurosirella_Nanofrustulum|36     0.00%    passed     99.18%
+ 439  sq3252|Pauliella|35                       1.84%    passed     91.35%
+ 440  sq3287|Opephora|39                        0.00%    passed     99.57%
+ 441  sq3314|Amphora|37                         1.05%    passed     96.67%
+ 442  sq3373|Staurosirella_Nanofrustulum|43     0.00%    passed     96.85%
+ 443  sq3374|Nitzschia|76                       0.79%    passed     39.16%
+ 444  sq3400|Stauroneis|69                      6.04%    passed     77.87%
+ 445  sq3445|Surirella|32                       1.84%    passed     44.65%
+ 446  sq3446|Cymbella|21                        2.10%    passed     88.45%
+ 447  sq3473|Nanofrustulum|99                   0.00%    passed     80.34%
+ 448  sq3474|Stauroneis|70                      1.31%    passed     83.19%
+ 449  sq3475|Opephora|43                        0.00%    passed     99.77%
+ 450  sq3476|Bacillaria|5                       2.10%    passed     96.20%
+ 451  sq3485|Hyalosira|97                       0.00%    passed     99.96%
+ 452  sq3494|Neofragilaria|40                   0.00%    passed     93.57%
+ 453  sq3495|Staurosirella_Nanofrustulum|19     0.00%    passed     93.48%
+ 454  sq3496|Nanofrustulum|36                   0.00%    passed     99.61%
+ 455  sq3522|Staurosirella_Nanofrustulum|34     0.00%    passed     96.73%
+ 456  sq3564|Nanofrustulum|49                   0.00%    passed     99.73%
+ 457  sq3585|Opephora|40                        0.00%    passed     99.66%
+ 458  sq3619|Nanofrustulum|95                   0.00%    passed     87.24%
+ 459  sq3635|Nanofrustulum|59                   0.00%    passed     98.92%
+ 460  sq3637|Cymbella|39                        2.36%    passed     98.87%
+ 461  sq3703|Nanofrustulum|99                   0.00%    passed     76.33%
+ 462  sq3704|Psammodictyon|97                   0.00%    passed     92.04%
+ 463  sq3705|Staurosira|53                      0.00%    passed     92.65%
+ 464  sq3706|Nanofrustulum|80                   0.00%    passed     98.27%
+ 465  sq3707|Raphid-pennate_X|31                0.79%    passed     83.41%
+ 466  sq3709|Pauliella|30                       2.10%    passed     99.44%
+ 467  sq3710|Nitzschia|51                       0.00%    passed     96.46%
+ 468  sq3748|Opephora|38                        0.00%    passed     96.73%
+ 469  sq3779|Nanofrustulum|74                   0.00%    passed     97.38%
+ 470  sq3782|Opephora|33                        0.00%    passed     99.66%
+ 471  sq3821|Navicula|100                       0.00%    passed     84.98%
+ 472  sq3823|Stauroneis|55                      1.31%    passed     88.65%
+ 473  sq3859|Nanofrustulum|99                   0.00%    passed     81.11%
+ 474  sq3860|Nanofrustulum|100                  0.00%    passed     81.11%
+ 475  sq3861|Stauroneis|95                      1.31%    passed     91.78%
+ 476  sq3862|Nanofrustulum|100                  0.00%    passed     87.12%
+ 477  sq3863|Staurosirella_Nanofrustulum|33     0.00%    passed     97.97%
+ 478  sq3865|Synedra|10                         0.26%    passed     96.12%
+ 479  sq3900|Staurosirella_Nanofrustulum|36     0.00%    passed     99.66%
+ 480  sq3932|Opephora|36                        0.00%    passed     99.66%
+ 481  sq3938|Staurosirella_Nanofrustulum|41     0.00%    passed     98.95%
+ 482  sq3941|Chaetoceros|100                    0.79%    passed     99.80%
+ 483  sq3943|Cymbella|5                         1.57%    passed     99.57%
+ 484  sq4009|Opephora|34                        0.00%    passed     99.68%
+ 485  sq4014|Stauroneis|73                      1.31%    passed     70.98%
+ 486  sq4015|Nitzschia|81                       0.79%    passed     68.15%
+ 487  sq4017|Punctastriata|27                   0.00%    passed     93.35%
+ 488  sq4044|Psammodictyon|75                   0.00%    passed     96.07%
+ 489  sq4087|Stauroneis|70                      1.31%    passed     86.65%
+ 490  sq4120|Psammoneis|95                      0.00%    passed     88.87%
+ 491  sq4152|Stauroneis|69                      1.31%    passed     89.23%
+ 492  sq4155|Stauroneis|61                      1.31%    passed     79.96%
+ 493  sq4157|Fallacia|0                         0.00%    passed     77.01%
+ 494  sq4187|Staurosirella_Nanofrustulum|34     0.00%    passed     99.90%
+ 495  sq4190|Pauliella|25                       2.10%    passed     92.93%
+ 496  sq4225|Cymbella|24                        2.10%    passed     94.05%
+ 497  sq4227|Staurosira|34                      0.00%    passed     99.20%
+ 498  sq4254|Planothidium|18                    2.62%    passed     99.45%
+ 499  sq4271|Psammodictyon|100                  0.00%    passed     96.62%
+ 500  sq4272|Nanofrustulum|54                   0.00%    passed     98.92%
+ 501  sq4275|Navicula|99                        0.00%    passed     92.89%
+ 502  sq4282|Staurosira|49                      0.00%    passed     96.10%
+ 503  sq4283|Punctastriata|34                   0.00%    passed     93.35%
+ 504  sq4318|Psammodictyon|93                   0.00%    passed     98.66%
+ 505  sq4323|Staurosira|40                      0.00%    passed     98.99%
+ 506  sq4324|Nanofrustulum|93                   0.00%    passed     88.71%
+ 507  sq4325|Nanofrustulum|100                  0.00%    passed     87.90%
+ 508  sq4351|Epithemia|45                       2.36%    passed     85.00%
+ 509  sq4352|Staurosirella_Nanofrustulum|24     0.00%    passed     99.10%
+ 510  sq4353|Nanofrustulum|100                  0.00%    passed     93.20%
+ 511  sq4354|Staurosira|45                      0.00%    passed     95.81%
+ 512  sq4355|Opephora|39                        0.00%    passed     98.95%
+ 513  sq4356|Staurosirella_Nanofrustulum|24     0.00%    passed     99.68%
+ 514  sq4394|Staurosirella_Nanofrustulum|26     0.00%    passed     98.89%
+ 515  sq4397|Staurosirella_Nanofrustulum|37     0.00%    passed     99.13%
+ 516  sq4399|Opephora|43                        0.00%    passed     96.51%
+ 517  sq4441|Nanofrustulum|34                   0.00%    passed     99.61%
+ 518  sq4448|Psammodictyon|100                  0.00%    passed     86.54%
+ 519  sq4485|Opephora|34                        0.00%    passed     99.61%
+ 520  sq4486|Stauroneis|59                      1.31%    passed     72.55%
+ 521  sq4487|Staurosirella_Nanofrustulum|33     0.00%    passed     99.97%
+ 522  sq4489|Psammodictyon|100                  0.00%    passed     90.06%
+ 523  sq4490|Nitzschia|90                       0.00%    passed     99.43%
+ 524  sq4491|Amphora|56                         2.10%    passed     97.18%
+ 525  sq4530|Psammodictyon|93                  14.70%    passed     92.02%
+ 526  sq4531|Cymbella|22                        2.10%    passed     81.03%
+ 527  sq4534|Pseudostaurosira|5                 3.41%    passed     93.07%
+ 528  sq4538|Cymbella|70                        2.10%    passed     99.29%
+ 529  sq4542|Staurosira|43                      0.00%    passed     97.37%
+ 530  sq4567|Sellaphora|12                      1.31%    passed     77.12%
+ 531  sq4575|Punctastriata|36                   0.00%    passed     99.68%
+ 532  sq4618|Navicula|64                        0.00%    passed     99.04%
+ 533  sq4620|Staurosirella_Nanofrustulum|29     0.00%    passed     96.49%
+ 534  sq4664|Staurosirella_Nanofrustulum|28     0.00%    passed     99.77%
+ 535  sq4666|Psammodictyon|98                   0.00%    passed     84.84%
+ 536  sq4667|Nanofrustulum|100                  0.00%    passed     94.93%
+ 537  sq4668|Stauroneis|51                      2.36%    passed     99.26%
+ 538  sq4672|Nanofrustulum|53                   0.00%    passed     98.81%
+ 539  sq4673|Staurosirella_Nanofrustulum|31     0.00%    passed     99.28%
+ 540  sq4716|Staurosirella_Nanofrustulum|45     0.00%    passed     97.97%
+ 541  sq4718|Staurosirella_Nanofrustulum|34     0.00%    passed     99.80%
+ 542  sq4719|Psammodictyon|83                   0.00%    passed     93.97%
+ 543  sq4720|Navicula|100                       4.72%    passed     52.38%
+ 544  sq4721|Staurosira|29                      0.00%    passed     95.43%
+ 545  sq4723|Nanofrustulum|100                  0.00%    passed     87.12%
+ 546  sq4724|Punctastriata|34                   0.00%    passed     99.29%
+ 547  sq4766|Opephora|37                        0.00%    passed     99.57%
+ 548  sq4767|Nanofrustulum|100                  0.00%    passed     84.56%
+ 549  sq4768|Nanofrustulum|100                  0.00%    passed     88.71%
+ 550  sq4769|Staurosira|81                      0.00%    passed     94.12%
+ 551  sq4776|Punctastriata|34                   0.00%    passed     96.36%
+ 552  sq4814|Staurosirella_Nanofrustulum|34     0.00%    passed     95.68%
+ 553  sq4827|Opephora|57                        0.00%    passed     98.95%
+ 554  sq4873|Staurosirella_Nanofrustulum|36     0.00%    passed     99.77%
+ 555  sq4884|Synedropsis|5                      2.10%    passed     94.51%
+ 556  sq4885|Stauroneis|72                      1.31%    passed     62.92%
+ 557  sq4886|Stauroneis|68                      1.31%    passed     67.23%
+ 558  sq4893|Nitzschia|77                       0.79%    passed     52.33%
+ 559  sq4924|Nanofrustulum|78                   0.00%    passed     99.28%
+ 560  sq4925|Psammodictyon|100                  0.00%    passed     86.54%
+ 561  sq4927|Staurosira|42                      0.00%    passed     98.92%
+ 562  sq4928|Nanofrustulum|90                   0.00%    passed     98.15%
+ 563  sq4932|Nanofrustulum|24                   0.00%    passed     99.36%
+ 564  sq4972|Nanofrustulum|67                   0.00%    passed     99.94%
+ 565  sq4978|Stephanopyxis|42                   0.00%    passed     73.30%
+ 566  sq4985|Stauroneis|69                      1.31%    passed     80.21%
+ 567  sq4986|Psammodictyon|82                   0.00%    passed     77.67%
+ 568  sq5028|Amphora|56                         2.10%    passed     95.53%
+ 569  sq5071|Opephora|39                        0.00%    passed     69.73%
+ 570  sq5074|Nanofrustulum|43                   0.00%    passed     99.96%
+ 571  sq5075|Staurosira|38                      0.00%    passed     83.86%
+ 572  sq5078|Navicula|100                       0.00%    passed     89.80%
+ 573  sq5080|Nitzschia|76                       0.79%    passed     59.06%
+ 574  sq5081|Nanofrustulum|95                   0.00%    passed     88.71%
+ 575  sq5090|Staurosira|30                      2.36%    passed     99.06%
+ 576  sq5091|Nitzschia|73                       0.79%    passed     52.93%
+ 577  sq5128|Staurosirella_Nanofrustulum|53     0.00%    passed     87.39%
+ 578  sq5129|Staurosirella_Nanofrustulum|19     0.00%    passed     98.89%
+ 579  sq5130|Staurosirella_Nanofrustulum|53     0.00%    passed     99.29%
+ 580  sq5131|Psammodictyon|94                   0.00%    passed     95.98%
+ 581  sq5192|Nanofrustulum|64                   0.00%    passed     99.13%
+ 582  sq5194|Punctastriata|31                   0.00%    passed     97.89%
+ 583  sq5203|Navicula|97                        0.00%    passed     96.77%
+ 584  sq5204|Nanofrustulum|29                   0.00%    passed     97.95%
+ 585  sq5250|Staurosira|48                      0.00%    passed     93.69%
+ 586  sq5296|Stauroneis|62                      1.31%    passed     85.08%
+ 587  sq5298|Stauroneis|54                      1.31%    passed     79.21%
+ 588  sq5361|Opephora|51                        0.00%    passed     92.40%
+ 589  sq5362|Pinnularia|93                      1.05%    passed     72.24%
+ 590  sq5374|Psammodictyon|100                  0.00%    passed     99.40%
+ 591  sq5413|Psammodictyon|69                   0.00%    passed     97.78%
+ 592  sq5415|Staurosira|33                      0.00%    passed     87.90%
+ 593  sq5418|Staurosira|42                      0.00%    passed     99.98%
+ 594  sq5473|Nanofrustulum|100                  0.00%    passed     83.32%
+ 595  sq5475|Staurosira|42                      0.00%    passed     94.03%
+ 596  sq5476|Craticula|26                       1.57%    passed     71.00%
+ 597  sq5477|Stauroneis|69                      1.31%    passed     75.13%
+ 598  sq5478|Nitzschia|68                       0.79%    passed     57.46%
+ 599  sq5497|Nitzschia|78                       0.79%    passed     55.45%
+ 600  sq5548|Staurosirella_Nanofrustulum|67     0.00%    passed     99.66%
+ 601  sq5550|Stauroneis|60                      1.31%    passed     86.65%
+ 602  sq5551|Nanofrustulum|100                  0.00%    passed     87.24%
+ 603  sq5552|Nanofrustulum|100                  0.00%    passed     87.24%
+ 604  sq5555|Nitzschia|80                       0.79%    passed     60.67%
+ 605  sq5560|Polar-centric-Mediophyceae_X|44    0.00%    passed     77.63%
+ 606  sq5566|Skeletonema|100                    0.00%    passed     53.35%
+ 607  sq5618|Navicula|100                       0.00%    passed     91.94%
+ 608  sq5628|Opephora|46                        0.00%    passed     98.21%
+ 609  sq5639|Minutocellus|42                    0.00%    passed     89.24%
+ 610  sq5640|Cocconeis|57                       1.84%    passed     92.13%
+ 611  sq5695|Staurosira|39                      0.00%    passed     89.99%
+ 612  sq5699|Opephora|32                        0.00%    passed     97.69%
+ 613  sq5710|Staurosira|19                      0.00%    passed     91.93%
+ 614  sq5773|Nanofrustulum|100                  0.00%    passed     87.24%
+ 615  sq5775|Stauroneis|68                      1.31%    passed     76.05%
+ 616  sq5799|Nanofrustulum|37                   0.00%    passed     98.66%
+ 617  sq5839|Staurosirella_Nanofrustulum|30     0.00%    passed     98.42%
+ 618  sq5840|Punctastriata|31                   0.00%    passed     98.95%
+ 619  sq5843|Cymbella|25                        2.10%    passed     78.06%
+ 620  sq5907|Staurosirella_Nanofrustulum|49     0.00%    passed     99.57%
+ 621  sq5908|Nanofrustulum|58                   0.00%    passed     99.90%
+ 622  sq5909|Opephora|42                        0.00%    passed     98.51%
+ 623  sq5910|Amphora|83                         1.31%    passed     95.63%
+ 624  sq5913|Nanofrustulum|100                  0.00%    passed     91.94%
+ 625  sq5936|Nanofrustulum|90                   0.00%    passed     89.24%
+ 626  sq5937|Stauroneis|59                      1.31%    passed     78.61%
+ 627  sq5990|Staurosirella_Nanofrustulum|26     0.00%    passed     92.12%
+ 628  sq5991|Opephora|50                        0.00%    passed     99.57%
+ 629  sq5992|Nanofrustulum|100                  0.00%    passed     87.24%
+ 630  sq5995|Nanofrustulum|36                   0.00%    passed     97.95%
+ 631  sq5996|Nanofrustulum|65                   0.00%    passed     99.36%
+ 632  sq5999|Pauliella|33                       2.10%    passed     99.04%
+ 633  sq6003|Opephora|53                        0.00%    passed     87.36%
+ 634  sq6019|Cymbella|83                        2.10%    passed     99.08%
+ 635  sq6020|Nanofrustulum|71                   0.00%    passed     99.94%
+ 636  sq6078|Staurosira|22                      1.31%    passed     99.39%
+ 637  sq6082|Punctastriata|51                   0.00%    passed     99.97%
+ 638  sq6105|Opephora|64                        0.00%    passed     84.98%
+ 639  sq6107|Opephora|56                        0.00%    passed     98.29%
+ 640  sq6161|Opephora|28                        0.00%    passed     99.10%
+ 641  sq6162|Psammodictyon|100                  0.00%    passed     91.29%
+ 642  sq6164|Staurosira|36                      0.00%    passed     98.95%
+ 643  sq6165|Staurosirella_Nanofrustulum|43     0.00%    passed     99.29%
+ 644  sq6171|Rhopalodia|37                      2.36%    passed     99.42%
+ 645  sq6197|Psammodictyon|100                  0.00%    passed     84.84%
+ 646  sq6200|Raphid-pennate_X|34                0.79%    passed     83.41%
+ 647  sq6253|Psammodictyon|100                  0.00%    passed     91.29%
+ 648  sq6256|Nanofrustulum|100                  0.00%    passed     87.24%
+ 649  sq6257|Nanofrustulum|100                  0.00%    passed     94.93%
+ 650  sq6258|Navicula|100                      18.64%    passed     80.17%
+ 651  sq6262|Nanofrustulum|92                   0.00%    passed     91.94%
+ 652  sq6287|Staurosira|48                      0.00%    passed     93.69%
+ 653  sq6288|Psammodictyon|84                   0.00%    passed     95.86%
+ 654  sq6358|Opephora|31                        0.00%    passed     98.95%
+ 655  sq6360|Nanofrustulum|72                   0.00%    passed     97.38%
+ 656  sq6390|Seminavis|41                       0.00%    passed     99.29%
+ 657  sq6443|Nanofrustulum|85                   0.00%    passed     99.77%
+ 658  sq6449|Opephora|36                        0.00%    passed     98.60%
+ 659  sq6451|Nanofrustulum|100                  0.00%    passed     79.67%
+ 660  sq6452|Staurosirella_Nanofrustulum|43     0.00%    passed     96.07%
+ 661  sq6480|Nanofrustulum|100                  0.00%    passed     88.64%
+ 662  sq6482|Staurosira|33                      0.00%    passed     99.83%
+ 663  sq6545|Stauroneis|60                      2.89%    passed     79.57%
+ 664  sq6553|Opephora|52                        0.00%    passed     94.44%
+ 665  sq6650|Amphora|80                         1.31%    passed     92.20%
+ 666  sq6667|Minutocellus|94                    0.00%    passed     99.21%
+ 667  sq6668|Nanofrustulum|70                   0.00%    passed     99.94%
+ 668  sq6669|Staurosira|12                      0.79%    passed     71.90%
+ 669  sq6670|Opephora|56                        0.00%    passed     91.40%
+ 670  sq6742|Staurosirella_Nanofrustulum|28     0.00%    passed     92.82%
+ 671  sq6748|Nanofrustulum|39                   0.00%    passed     99.61%
+ 672  sq6750|Staurosirella_Nanofrustulum|46     0.00%    passed     97.18%
+ 673  sq6853|Opephora|46                        0.00%    passed     99.62%
+ 674  sq6856|Staurosira|57                      0.00%    passed     95.98%
+ 675  sq6857|Staurosirella_Nanofrustulum|62     0.00%    passed     98.47%
+ 676  sq6858|Punctastriata|44                   0.00%    passed     74.58%
+ 677  sq6859|Navicula|100                       0.00%    passed     75.54%
+ 678  sq6860|Fragilariforma|3                   2.10%    passed     90.82%
+ 679  sq6864|Cymbella|33                        1.05%    passed     99.07%
+ 680  sq6891|Stauroneis|73                      1.31%    passed     76.20%
+ 681  sq6961|Raphid-pennate_X|26                0.00%    passed     97.71%
+ 682  sq6962|Nanofrustulum|100                  0.00%    passed     93.29%
+ 683  sq6963|Staurosira|42                      0.00%    passed     99.77%
+ 684  sq6965|Staurosirella_Nanofrustulum|32     0.00%    passed     95.18%
+ 685  sq6972|Staurosira|49                      0.00%    passed     90.61%
+ 686  sq6974|Staurosirella_Nanofrustulum|46     0.00%    passed     99.98%
+ 687  sq7093|Staurosirella_Nanofrustulum|40     0.00%    passed     66.95%
+ 688  sq7097|Staurosirella_Nanofrustulum|38     0.00%    passed     99.68%
+ 689  sq7099|Staurosirella_Nanofrustulum|27     0.00%    passed     94.03%
+ 690  sq7148|Pinnularia|91                      1.05%    passed     66.65%
+ 691  sq7151|Psammodictyon|81                   0.00%    passed     96.38%
+ 692  sq7152|Punctastriata|28                   0.00%    passed     98.29%
+ 693  sq7218|Staurosirella_Nanofrustulum|39     0.00%    passed     99.68%
+ 694  sq7219|Opephora|22                        0.00%    passed     98.60%
+ 695  sq7220|Nanofrustulum|18                   0.00%    passed     98.80%
+ 696  sq7221|Nanofrustulum|100                  0.00%    passed     78.63%
+ 697  sq7223|Opephora|48                        0.00%    passed     96.73%
+ 698  sq7224|Opephora|50                        0.00%    passed     99.18%
+ 699  sq7225|Nanofrustulum|96                   0.00%    passed     96.38%
+ 700  sq7227|Staurosirella_Nanofrustulum|27     0.00%    passed     99.61%
+ 701  sq7232|Psammodictyon|100                  0.00%    passed     94.61%
+ 702  sq7266|Nitzschia|57                       0.79%    passed     76.68%
+ 703  sq7267|Raphid-pennate_X|32                0.79%    passed     80.66%
+ 704  sq7270|Cymbella|24                        2.10%    passed     89.94%
+ 705  sq7342|Opephora|16                        0.00%    passed     99.98%
+ 706  sq7346|Opephora|43                        0.00%    passed     99.17%
+ 707  sq7348|Nanofrustulum|49                   0.00%    passed     99.83%
+ 708  sq7354|Nanofrustulum|100                  0.00%    passed     82.60%
+ 709  sq7357|Staurosirella|10                   0.00%    passed     98.40%
+ 710  sq7358|Amphora|15                         2.36%    passed     86.69%
+ 711  sq7359|Nitzschia|84                       0.79%    passed     58.68%
+ 712  sq7404|Opephora|45                        0.00%    passed     97.50%
+ 713  sq7471|Opephora|40                        0.00%    passed     98.43%
+ 714  sq7475|Punctastriata|36                   0.00%    passed     98.95%
+ 715  sq7478|Staurosirella_Nanofrustulum|25     0.00%    passed     98.89%
+ 716  sq7512|Raphid-pennate_X|29                0.79%    passed     83.41%
+ 717  sq7513|Nitzschia|60                       0.79%    passed     86.16%
+ 718  sq7515|Achnanthes|39                      1.57%    passed     96.11%
+ 719  sq7582|Staurosira|40                      0.00%    passed     88.64%
+ 720  sq7583|Nitzschia|73                       0.79%    passed     64.50%
+ 721  sq7584|Staurosira|45                      0.00%    passed     93.59%
+ 722  sq7585|Nanofrustulum|78                   0.00%    passed     65.76%
+ 723  sq7589|Psammodictyon|89                   0.00%    passed     91.04%
+ 724  sq7596|Nanofrustulum|77                   0.00%    passed     97.33%
+ 725  sq7598|Skeletonema|99                     0.00%    passed     46.86%
+ 726  sq7599|Neofragilaria|38                   0.00%    passed     98.22%
+ 727  sq7601|Nanofrustulum|94                   0.00%    passed     82.60%
+ 728  sq7604|Raphid-pennate_X|27                0.79%    passed     64.50%
+ 729  sq7649|Staurosirella_Nanofrustulum|30     0.00%    passed     97.70%
+ 730  sq7656|Nanofrustulum|100                  0.00%    passed     83.32%
+ 731  sq7750|Nitzschia|48                       1.05%    passed     86.67%
+ 732  sq7753|Staurosirella_Nanofrustulum|33     0.00%    passed     97.34%
+ 733  sq7754|Staurosirella_Nanofrustulum|25     0.00%    passed     99.68%
+ 734  sq7755|Opephora|36                        0.00%    passed     99.88%
+ 735  sq7757|Nanofrustulum|59                   0.00%    passed     99.36%
+ 736  sq7813|Cymbella|17                        0.79%    passed     94.80%
+ 737  sq7892|Nitzschia|86                       1.31%    passed     88.72%
+ 738  sq7902|Staurosirella_Nanofrustulum|30     0.00%    passed     99.68%
+ 739  sq7904|Nanofrustulum|49                   0.00%    passed     99.80%
+ 740  sq7907|Nanofrustulum|100                  0.00%    passed     82.60%
+ 741  sq7909|Nanofrustulum|100                 14.70%    passed     85.38%
+ 742  sq7913|Staurosirella_Nanofrustulum|21     0.00%    passed     99.83%
+ 743  sq7915|Seminavis|49                       0.00%    passed     99.61%
+ 744  sq7965|Opephora|45                        0.00%    passed     99.34%
+ 745  sq7966|Raphid-pennate_X|39                0.79%    passed     80.66%
+ 746  sq7969|Nanofrustulum|88                  14.70%    passed     77.53%
+ 747  sq8077|Opephora|36                        0.00%    passed     99.83%
+ 748  sq8078|Staurosirella_Nanofrustulum|29     0.00%    passed     99.68%
+ 749  sq8081|Staurosira|35                      0.00%    passed     99.61%
+ 750  sq8082|Opephora|69                        0.00%    passed     96.23%
+ 751  sq8085|Nanofrustulum|71                   0.00%    passed     98.81%
+ 752  sq8152|Staurosirella_Nanofrustulum|23     0.00%    passed     98.25%
+ 753  sq8153|Staurosira|39                      0.00%    passed     99.18%
+ 754  sq8154|Opephora|43                        0.00%    passed     97.67%
+ 755  sq8155|Opephora|42                        0.00%    passed     92.19%
+ 756  sq8157|Staurosirella_Nanofrustulum|38     0.00%    passed     65.77%
+ 757  sq8158|Staurosira|34                      0.00%    passed     94.12%
+ 758  sq8161|Opephora|51                        0.00%    passed     95.74%
+ 759  sq8248|Navicula|100                       0.00%    passed     94.44%
+ 760  sq8254|Opephora|32                        0.00%    passed     98.80%
+ 761  sq8255|Staurosirella_Nanofrustulum|45     0.00%    passed     99.75%
+ 762  sq8258|Psammodictyon|99                   0.00%    passed     97.78%
+ 763  sq8259|Nanofrustulum|92                   0.00%    passed     83.32%
+ 764  sq8260|Nanofrustulum|100                  0.00%    passed     73.73%
+ 765  sq8265|Opephora|43                        0.00%    passed     97.22%
+ 766  sq8327|Entomoneis|67                      2.36%    passed     99.55%
+ 767  sq8330|Opephora|30                        0.00%    passed     85.51%
+ 768  sq8331|Nitzschia|72                       0.79%    passed     45.19%
+ 769  sq8417|Staurosirella_Nanofrustulum|47     0.00%    passed     94.02%
+ 770  sq8420|Nanofrustulum|100                  0.00%    passed     87.24%
+ 771  sq8421|Pseudostaurosiropsis|47            0.00%    passed     99.86%
+ 772  sq8424|Nanofrustulum|100                  0.00%    passed     78.35%
+ 773  sq8425|Nanofrustulum|99                   0.00%    passed     78.63%
+ 774  sq8429|Punctastriata|33                   0.00%    passed     98.27%
+ 775  sq8430|Staurosirella_Nanofrustulum|35     0.00%    passed     99.68%
+ 776  sq8432|Staurosira|37                      0.00%    passed     96.61%
+ 777  sq8448|Navicula|74                        0.00%    passed     97.71%
+ 778  sq8502|Nitzschia|96                       0.79%    passed     43.96%
+ 779  sq8503|Staurosirella_Nanofrustulum|45     0.00%    passed     65.77%
+ 780  sq8505|Opephora|54                        0.00%    passed     98.04%
+ 781  sq8618|Nanofrustulum|72                   0.00%    passed     98.84%
+ 782  sq8625|Opephora|41                        0.00%    passed     99.29%
+ 783  sq8626|Nanofrustulum|100                  0.00%    passed     91.88%
+ 784  sq8833|Staurosira|34                      0.00%    passed     98.22%
+ 785  sq8834|Skeletonema|100                    0.00%    passed     50.50%
+ 786  sq8836|Opephora|58                        0.00%    passed     99.77%
+ 787  sq8837|Staurosirella_Nanofrustulum|39     0.00%    passed     99.17%
+ 788  sq8841|Staurosira|38                      0.00%    passed     94.45%
+ 789  sq8843|Punctastriata|43                   0.00%    passed     98.48%
+ 790  sq8922|Nitzschia|45                       0.79%    passed     74.79%
+ 791  sq8924|Rhabdonema|10                      0.79%    passed     83.45%
+ 792  sq8926|Staurosira|41                      0.00%    passed     99.21%
+ 793  sq8928|Nanofrustulum|100                  0.00%    passed     78.63%
+ 794  sq9049|Staurosirella_Nanofrustulum|37     0.00%    passed     99.68%
+ 795  sq9050|Punctastriata|30                   0.00%    passed     95.98%
+ 796  sq9054|Staurosirella_Nanofrustulum|26     0.00%    passed     92.82%
+ 797  sq9056|Stauroneis|61                      1.31%    passed     65.31%
+ 798  sq9062|Staurosirella_Nanofrustulum|38     0.00%    passed     97.38%
+ 799  sq9066|Nanofrustulum|56                   0.00%    passed     99.36%
+ 800  sq9069|Opephora|55                        0.00%    passed     92.40%
+ 801  sq9155|Skeletonema|93                     0.00%    passed     67.90%
+ 802  sq9160|Staurosirella_Nanofrustulum|46     0.00%    passed     91.42%
+ 803  sq9164|Staurosirella_Nanofrustulum|37     0.00%    passed     96.07%
+ 804  sq9166|Staurosira|71                      0.00%    passed     91.04%
+ 805  sq9167|Opephora|48                        0.00%    passed     98.43%
+ 806  sq9274|Staurosirella_Nanofrustulum|38     0.00%    passed     97.38%
+ 807  sq9276|Opephora|46                        0.00%    passed     98.43%
+ 808  sq9277|Nanofrustulum|59                   0.00%    passed     99.83%
+ 809  sq9278|Opephora|36                        0.00%    passed     98.57%
+ 810  sq9280|Staurosira|27                      0.00%    passed     93.56%
+ 811  sq9283|Nitzschia|71                       0.79%    passed     44.45%
+ 812  sq9287|Staurosira|52                      0.00%    passed     95.74%
+ 813  sq9296|Staurosira|52                      0.00%    passed     99.06%
+ 814  sq9375|Chaetoceros|100                    0.79%    passed     99.53%
+ 815  sq9377|Staurosirella_Nanofrustulum|41     0.00%    passed     99.20%
+ 816  sq9381|Staurosira|31                      0.00%    passed     96.10%
+ 817  sq9514|Staurosira|44                      0.00%    passed     98.18%
+ 818  sq9516|Staurosirella_Nanofrustulum|18     0.00%    passed     97.34%
+ 819  sq9517|Staurosirella_Nanofrustulum|41     0.00%    passed     98.89%
+ 820  sq9522|Staurosirella_Nanofrustulum|29     0.00%    passed     97.37%
+ 821  sq9523|Minutocellus|75                    0.00%    passed     97.13%
+ 822  sq9533|Staurosira|47                      0.00%    passed     98.27%
+ 823  sq9534|Staurosirella_Nanofrustulum|35     0.00%    passed     92.03%
+ 824  sq9537|Staurosira|44                      0.00%    passed     98.25%
+ 825  sq9635|Nitzschia|82                       0.79%    passed     55.45%
+ 826  sq9640|Nanofrustulum|100                  0.00%    passed     83.32%
+ 827  sq9641|Staurosira|43                      0.00%    passed     99.28%
+ 828  sq9645|Nitzschia|42                       0.79%    passed     75.23%
+ 829  sq9646|Staurosirella_Nanofrustulum|53     0.00%    passed     91.15%
+ 830  sq9647|Staurosirella_Nanofrustulum|46     0.00%    passed     91.40%
+ 831  sq9648|Staurosirella_Nanofrustulum|57     0.00%    passed     99.76%
+ 832  sq9781|Navicula|45                        0.00%    passed     99.95%
+ 833  sq9782|Nanofrustulum|66                   0.00%    passed     99.80%
+ 834  sq9784|Psammodictyon|37                  34.38%    passed     58.22%
+ 835  sq9791|Staurosira|25                      0.00%    passed     94.00%
+ 836  sq9795|Nanofrustulum|72                   0.00%    passed     98.81%
+ 837  sq9897|Staurosirella_Nanofrustulum|29     0.00%    passed     96.10%
+ 838  sq9898|Arcocellulus|52                    0.00%    passed     96.17%
+ 839  sq9899|Stauroneis|73                      1.31%    passed     75.13%
+ 840  sq9901|Staurosirella_Nanofrustulum|13     0.00%    passed     99.29%
+ 841  sq9906|Staurosirella_Nanofrustulum|47     0.26%    passed     96.92%
+ 842  sq10080|Nanofrustulum|74                  0.00%    passed     99.41%
+ 843  sq10081|Opephora|69                       0.00%    passed     97.67%
+ 844  sq10083|Staurosirella_Nanofrustulum|32    0.00%    passed     99.01%
+ 845  sq10088|Nanofrustulum|61                  0.00%    passed     99.13%
+ 846  sq10090|Opephora|42                       0.00%    passed     99.13%
+ 847  sq10091|Chaetoceros|100                   1.05%    passed     99.05%
+ 848  sq10094|Opephora|45                       0.00%    passed     98.95%
+ 849  sq10096|Psammodictyon|90                  0.00%    passed     97.78%
+ 850  sq10216|Nitzschia|83                      0.79%    passed     60.67%
+ 851  sq10218|Amphora|41                        1.31%    passed     97.40%
+ 852  sq10220|Raphid-pennate_X|34               0.79%    passed     89.51%
+ 853  sq10221|Nanofrustulum|71                  0.00%    passed     82.41%
+ 854  sq10223|Raphid-pennate_X|35               0.79%    passed     88.44%
+ 855  sq10402|Staurosira|51                     0.00%    passed     99.01%
+ 856  sq10403|Navicula|76                       0.00%    passed     99.76%
+ 857  sq10404|Staurosira|39                     0.00%    passed     91.04%
+ 858  sq10407|Punctastriata|31                  0.00%    passed     99.29%
+ 859  sq10408|Staurosirella_Nanofrustulum|24    0.00%    passed     95.60%
+ 860  sq10410|Staurosirella_Nanofrustulum|37    0.00%    passed     95.81%
+ 861  sq10412|Nanofrustulum|57                  0.00%    passed     99.73%
+ 862  sq10413|Nanofrustulum|97                  0.00%    passed     82.62%
+ 863  sq10414|Opephora|22                       0.00%    passed     99.68%
+ 864  sq10415|Punctastriata|29                  0.00%    passed     99.29%
+ 865  sq10425|Nanofrustulum|73                  0.00%    passed     99.99%
+ 866  sq10560|Staurosirella_Nanofrustulum|56    0.00%    passed     91.15%
+ 867  sq10563|Psammodictyon|98                  7.35%    passed     99.01%
+ 868  sq10567|Nanofrustulum|100                 0.00%    passed     85.34%
+****  TOTAL                                     0.39%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: sq4|Staurosirella_Nanofrustulum|52 is identical to sq3|Staurosirella_Nanofrustulum|49 but kept for subsequent analysis
+NOTE: sq13|Nanofrustulum|100 is identical to sq10|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq854|Staurosirella_Nanofrustulum|39 is identical to sq22|Staurosirella_Nanofrustulum|47 but kept for subsequent analysis
+NOTE: sq46|Nanofrustulum|100 is identical to sq35|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq840|Stauroneis|53 is identical to sq56|Stauroneis|72 but kept for subsequent analysis
+NOTE: sq80|Staurosirella_Nanofrustulum|45 is identical to sq69|Staurosirella_Nanofrustulum|40 but kept for subsequent analysis
+NOTE: sq128|Staurosirella_Nanofrustulum|44 is identical to sq117|Staurosirella_Nanofrustulum|43 but kept for subsequent analysis
+NOTE: sq148|Staurosirella_Nanofrustulum|34 is identical to sq120|Staurosirella_Nanofrustulum|37 but kept for subsequent analysis
+NOTE: sq360|Staurosirella_Nanofrustulum|44 is identical to sq151|Staurosirella_Nanofrustulum|45 but kept for subsequent analysis
+NOTE: sq175|Staurosirella_Nanofrustulum|28 is identical to sq160|Staurosirella_Nanofrustulum|30 but kept for subsequent analysis
+NOTE: sq391|Nanofrustulum|100 is identical to sq208|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq237|Staurosirella_Nanofrustulum|51 is identical to sq220|Staurosirella_Nanofrustulum|50 but kept for subsequent analysis
+NOTE: sq260|Staurosirella_Nanofrustulum|39 is identical to sq228|Staurosirella_Nanofrustulum|41 but kept for subsequent analysis
+NOTE: sq440|Nanofrustulum|100 is identical to sq245|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq436|Staurosirella_Nanofrustulum|22 is identical to sq374|Staurosirella_Nanofrustulum|34 but kept for subsequent analysis
+NOTE: sq523|Staurosirella_Nanofrustulum|41 is identical to sq475|Staurosirella_Nanofrustulum|41 but kept for subsequent analysis
+NOTE: sq554|Punctastriata|22 is identical to sq497|Punctastriata|26 but kept for subsequent analysis
+NOTE: sq2399|Nanofrustulum|100 is identical to sq568|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq1166|Nanofrustulum|100 is identical to sq750|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq911|Punctastriata|26 is identical to sq772|Araphid-pennate_X|27 but kept for subsequent analysis
+NOTE: sq7656|Nanofrustulum|100 is identical to sq837|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq1688|Nanofrustulum|100 is identical to sq928|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq2748|Stauroneis|59 is identical to sq1091|Stauroneis|71 but kept for subsequent analysis
+NOTE: sq2067|Nanofrustulum|100 is identical to sq1116|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq4324|Nanofrustulum|93 is identical to sq1391|Nanofrustulum|93 but kept for subsequent analysis
+NOTE: sq2367|Stauroneis|51 is identical to sq1650|Stauroneis|64 but kept for subsequent analysis
+NOTE: sq3859|Nanofrustulum|99 is identical to sq1732|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq3619|Nanofrustulum|95 is identical to sq1805|Nanofrustulum|92 but kept for subsequent analysis
+NOTE: sq1982|Nanofrustulum|100 is identical to sq1947|Nanofrustulum|99 but kept for subsequent analysis
+NOTE: sq3073|Araphid-pennate_X|34 is identical to sq2821|Araphid-pennate_X|45 but kept for subsequent analysis
+NOTE: sq4187|Staurosirella_Nanofrustulum|34 is identical to sq3070|Staurosirella_Nanofrustulum|37 but kept for subsequent analysis
+NOTE: sq3900|Staurosirella_Nanofrustulum|36 is identical to sq3191|Staurosirella_Nanofrustulum|39 but kept for subsequent analysis
+NOTE: sq4873|Staurosirella_Nanofrustulum|36 is identical to sq4664|Staurosirella_Nanofrustulum|28 but kept for subsequent analysis
+NOTE: sq6165|Staurosirella_Nanofrustulum|43 is identical to sq5130|Staurosirella_Nanofrustulum|53 but kept for subsequent analysis
+NOTE: sq6256|Nanofrustulum|100 is identical to sq5552|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq8420|Nanofrustulum|100 is identical to sq5992|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq9164|Staurosirella_Nanofrustulum|37 is identical to sq6452|Staurosirella_Nanofrustulum|43 but kept for subsequent analysis
+NOTE: sq9049|Staurosirella_Nanofrustulum|37 is identical to sq7218|Staurosirella_Nanofrustulum|39 but kept for subsequent analysis
+NOTE: sq7907|Nanofrustulum|100 is identical to sq7354|Nanofrustulum|100 but kept for subsequent analysis
+NOTE: sq8078|Staurosirella_Nanofrustulum|29 is identical to sq7754|Staurosirella_Nanofrustulum|25 but kept for subsequent analysis
+NOTE: sq8503|Staurosirella_Nanofrustulum|45 is identical to sq8157|Staurosirella_Nanofrustulum|38 but kept for subsequent analysis
+NOTE: sq10560|Staurosirella_Nanofrustulum|56 is identical to sq9646|Staurosirella_Nanofrustulum|53 but kept for subsequent analysis
+NOTE: sq10415|Punctastriata|29 is identical to sq10407|Punctastriata|31 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.075 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -14935.406
+Optimal log-likelihood: -14934.860
+Rate parameters:  A-C: 1.08520  A-G: 1.33736  A-T: 0.61950  C-G: 0.38781  C-T: 3.16034  G-T: 1.00000
+Base frequencies:  A: 0.249  C: 0.156  G: 0.282  T: 0.314
+Proportion of invariable sites: 0.203
+Gamma shape alpha: 0.715
+Parameters optimization took 1 rounds (0.388 sec)
+Time for fast ML tree search: 7.582 seconds
+
+NOTE: ModelFinder requires 83 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 381 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  GTR+F         16571.221    1741 36624.441    6102268.441  43488.855
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  GTR+F+I       15984.108    1742 35452.215    6108064.215  42320.572
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  GTR+F+G4      14956.898    1742 33397.796    6106009.796  40266.153
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  GTR+F+I+G4    14934.069    1743 33354.138    6112938.138  40226.438
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  GTR+F+R2      15124.952    1743 33735.903    6113319.903  40608.202
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  GTR+F+R3      14944.094    1745 33378.189    6126918.189  40258.373
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  7  GTR+F+R4      14876.088    1747 33246.176    6140758.176  40134.247
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  8  GTR+F+R5      14845.559    1749 33189.118    6154689.118  40085.074
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  9  GTR+F+R6      14841.601    1751 33185.203    6168689.203  40089.045
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 14  GTR+F+I+R2    15053.966    1744 33595.932    6120155.932  40472.175
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 15  GTR+F+I+R3    14899.159    1746 33290.319    6133814.319  40174.447
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 16  GTR+F+I+R4    14841.228    1748 33178.455    6147682.455  40070.468
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 17  GTR+F+I+R5    14836.144    1750 33172.287    6161672.287  40072.186
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 38  SYM+I+R4      14885.862    1745 33261.725    6126801.725  40141.910
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 39  SYM+I+R5      14873.228    1747 33240.456    6140752.456  40128.527
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 60  TVM+F+I+R4    14917.523    1747 33329.046    6140841.046  40217.117
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 61  TVM+F+I+R5    14911.040    1749 33320.080    6154820.080  40216.036
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 82  TVMe+I+R4     14919.119    1744 33326.237    6119886.237  40202.479
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 83  TVMe+I+R5     14914.843    1746 33321.685    6133845.685  40205.813
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+104  TIM3+F+I+R4   14888.717    1746 33269.435    6133793.435  40153.563
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+105  TIM3+F+I+R5   14884.229    1748 33264.458    6147768.458  40156.471
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+126  TIM3e+I+R4    14942.046    1743 33370.093    6112954.093  40242.392
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+127  TIM3e+I+R5    14928.545    1745 33347.091    6126887.091  40227.276
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+148  TIM2+F+I+R4   14893.612    1746 33279.225    6133803.225  40163.352
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+149  TIM2+F+I+R5   14889.277    1748 33274.555    6147778.555  40166.568
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+170  TIM2e+I+R4    15004.864    1743 33495.729    6113079.729  40368.028
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+171  TIM2e+I+R5    14997.166    1745 33484.332    6127024.332  40364.517
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+192  TIM+F+I+R4    14847.418    1746 33186.836    6133710.836  40070.964
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+193  TIM+F+I+R5    14842.290    1748 33180.580    6147684.580  40072.594
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+214  TIMe+I+R4     14932.724    1743 33351.449    6112935.449  40223.748
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+215  TIMe+I+R5     14924.777    1745 33339.554    6126879.554  40219.739
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+236  TPM3u+F+I+R4  14964.209    1745 33418.418    6126958.418  40298.603
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+237  TPM3u+F+I+R5  14957.452    1747 33408.904    6140920.904  40296.974
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+258  TPM3+I+R4     14974.039    1742 33432.079    6106044.079  40300.435
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+259  TPM3+I+R5     14969.867    1744 33427.734    6119987.734  40303.976
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+280  TPM2u+F+I+R4  14971.388    1745 33432.776    6126972.776  40312.960
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+281  TPM2u+F+I+R5  14965.839    1747 33425.678    6140937.678  40313.749
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+302  TPM2+I+R4     15045.472    1742 33574.944    6106186.944  40443.301
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+303  TPM2+I+R5     15037.482    1744 33562.963    6120122.963  40439.205
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+324  K3Pu+F+I+R4   14924.041    1745 33338.082    6126878.082  40218.266
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+325  K3Pu+F+I+R5   14918.024    1747 33330.048    6140842.048  40218.119
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+346  K3P+I+R4      14973.772    1742 33431.545    6106043.545  40299.901
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+347  K3P+I+R5      14966.328    1744 33420.656    6119980.656  40296.898
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+368  TN+F+I+R4     14893.738    1745 33277.476    6126817.476  40157.660
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+369  TN+F+I+R5     14889.471    1747 33272.942    6140784.942  40161.013
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+390  TNe+I+R4      15005.095    1742 33494.189    6106106.189  40362.546
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+391  TNe+I+R5      14997.514    1744 33483.028    6120043.028  40359.270
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+412  HKY+F+I+R4    14971.911    1744 33431.823    6119991.823  40308.065
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+413  HKY+F+I+R5    14966.367    1746 33424.734    6133948.734  40308.862
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+434  K2P+I+R4      15045.584    1741 33573.168    6099217.168  40437.582
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+435  K2P+I+R5      15038.211    1743 33562.422    6113146.422  40434.722
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+456  F81+F+I+R4    15236.378    1743 33958.755    6113542.755  40831.054
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+457  F81+F+I+R5    15231.312    1745 33952.623    6127492.623  40832.808
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+478  JC+I+R4       15291.273    1740 34062.547    6092742.547  40923.018
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+479  JC+I+R5       15284.388    1742 34052.776    6106664.776  40921.133
+Akaike Information Criterion:           GTR+F+I+R5
+Corrected Akaike Information Criterion: JC+I+R4
+Bayesian Information Criterion:         GTR+F+I+R4
+Best-fit model: GTR+F+I+R4 chosen according to BIC
+
+All model information printed to 3-diatom_sequences_forams.trimal.fasta.model.gz
+CPU time for ModelFinder: 259.555 seconds (0h:4m:19s)
+Wall-clock time for ModelFinder: 116.271 seconds (0h:1m:56s)
+Generating 1000 samples for ultrafast bootstrap (seed: 555201)...
+
+NOTE: 34 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -15239.683
+2. Current log-likelihood: -14847.459
+3. Current log-likelihood: -14841.546
+Optimal log-likelihood: -14841.522
+Rate parameters:  A-C: 1.07740  A-G: 1.34362  A-T: 0.60920  C-G: 0.39336  C-T: 3.11268  G-T: 1.00000
+Base frequencies:  A: 0.249  C: 0.156  G: 0.282  T: 0.314
+Proportion of invariable sites: 0.230
+Site proportion and rates:  (0.468,0.308) (0.178,1.622) (0.111,3.829) (0.013,10.619)
+Parameters optimization took 3 rounds (1.560 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.169415 secs using 790.1% CPU
+Computing ML distances took 0.169983 sec (of wall-clock time) 1.339382 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.001647 secs using 659.6% CPU
+Computing RapidNJ tree took 0.134938 sec (of wall-clock time) 0.215570 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -15120.232
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.678 second
+Computing log-likelihood of 98 initial trees ... 18.841 seconds
+Current best score: -14830.119
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -14769.038
+Iteration 10 / LogL: -14812.978 / Time: 0h:4m:7s
+Iteration 20 / LogL: -14827.729 / Time: 0h:5m:52s
+Finish initializing candidate tree set (20)
+Current best tree score: -14769.038 / CPU time: 232.100
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -14805.613 / Time: 0h:7m:52s (0h:14m:32s left)
+Iteration 40 / LogL: -14782.238 / Time: 0h:9m:57s (0h:12m:32s left)
+Iteration 50 / LogL: -14775.018 / Time: 0h:11m:48s (0h:10m:16s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -14765.436
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -14754.732
+Iteration 60 / LogL: -14781.683 / Time: 0h:14m:2s (0h:19m:41s left)
+Iteration 70 / LogL: -14754.935 / Time: 0h:16m:20s (0h:17m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -14748.533
+Iteration 80 / LogL: -14780.421 / Time: 0h:18m:30s (0h:19m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -14744.056
+Iteration 90 / LogL: -14776.620 / Time: 0h:20m:33s (0h:19m:39s left)
+Iteration 100 / LogL: -14749.870 / Time: 0h:22m:32s (0h:17m:28s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.974
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -14778.417 / Time: 0h:24m:26s (0h:18m:34s left)
+Iteration 120 / LogL: -14786.231 / Time: 0h:26m:25s (0h:16m:27s left)
+Iteration 130 / LogL: -14794.476 / Time: 0h:28m:21s (0h:14m:20s left)
+Iteration 140 / LogL: -14800.455 / Time: 0h:30m:20s (0h:12m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -14743.557
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -14739.298
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 148: -14735.340
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 149: -14729.371
+Iteration 150 / LogL: -14755.377 / Time: 0h:32m:30s (0h:20m:18s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 160 / LogL: -14754.068 / Time: 0h:34m:29s (0h:18m:13s left)
+Iteration 170 / LogL: -14781.877 / Time: 0h:36m:26s (0h:16m:7s left)
+Iteration 180 / LogL: -14785.281 / Time: 0h:38m:31s (0h:14m:6s left)
+Iteration 190 / LogL: -14740.987 / Time: 0h:40m:31s (0h:12m:2s left)
+Iteration 200 / LogL: -14776.351 / Time: 0h:42m:32s (0h:9m:59s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.979
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -14746.750 / Time: 0h:44m:39s (0h:18m:23s left)
+Iteration 220 / LogL: -14741.802 / Time: 0h:46m:44s (0h:16m:22s left)
+Iteration 230 / LogL: -14784.573 / Time: 0h:48m:49s (0h:14m:19s left)
+Iteration 240 / LogL: -14747.342 / Time: 0h:50m:48s (0h:12m:16s left)
+Iteration 250 / LogL: -14730.668 / Time: 0h:52m:49s (0h:10m:13s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 260 / LogL: -14766.604 / Time: 0h:54m:50s (0h:8m:10s left)
+Iteration 270 / LogL: -14759.423 / Time: 0h:56m:56s (0h:6m:8s left)
+Iteration 280 / LogL: -14775.683 / Time: 0h:58m:56s (0h:4m:5s left)
+Iteration 290 / LogL: -14762.971 / Time: 1h:1m:0s (0h:2m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 294: -14727.387
+Iteration 300 / LogL: -14776.465 / Time: 1h:3m:13s (0h:19m:16s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -14758.382 / Time: 1h:5m:13s (0h:18m:26s left)
+Iteration 320 / LogL: -14734.090 / Time: 1h:7m:15s (0h:16m:22s left)
+Iteration 330 / LogL: -14782.559 / Time: 1h:9m:22s (0h:14m:20s left)
+Iteration 340 / LogL: -14744.366 / Time: 1h:11m:27s (0h:12m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 349: -14723.471
+Iteration 350 / LogL: -14772.860 / Time: 1h:13m:26s (0h:20m:16s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 360 / LogL: -14760.476 / Time: 1h:15m:32s (0h:18m:14s left)
+Iteration 370 / LogL: -14741.330 / Time: 1h:17m:37s (0h:16m:12s left)
+Iteration 380 / LogL: -14771.179 / Time: 1h:19m:48s (0h:14m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 389: -14723.042
+Iteration 390 / LogL: -14746.549 / Time: 1h:22m:3s (0h:20m:23s left)
+Iteration 400 / LogL: -14749.731 / Time: 1h:24m:12s (0h:18m:20s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -14732.197 / Time: 1h:26m:19s (0h:18m:34s left)
+Iteration 420 / LogL: -14781.219 / Time: 1h:28m:29s (0h:16m:31s left)
+Iteration 430 / LogL: -14750.768 / Time: 1h:30m:35s (0h:14m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 434: -14722.609
+Iteration 440 / LogL: -14744.374 / Time: 1h:32m:47s (0h:19m:27s left)
+Iteration 450 / LogL: -14733.861 / Time: 1h:34m:51s (0h:17m:23s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 452: -14721.211
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 460: -14720.133
+Iteration 460 / LogL: -14720.133 / Time: 1h:36m:59s (0h:20m:42s left)
+Iteration 470 / LogL: -14779.057 / Time: 1h:39m:12s (0h:18m:39s left)
+Iteration 480 / LogL: -14732.285 / Time: 1h:41m:26s (0h:16m:37s left)
+Iteration 490 / LogL: -14734.510 / Time: 1h:43m:32s (0h:14m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 496: -14712.164
+Iteration 500 / LogL: -14778.677 / Time: 1h:45m:38s (0h:19m:56s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -14747.477 / Time: 1h:47m:49s (0h:18m:43s left)
+Iteration 520 / LogL: -14719.907 / Time: 1h:49m:57s (0h:16m:39s left)
+Iteration 530 / LogL: -14754.351 / Time: 1h:52m:7s (0h:14m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 534: -14711.963
+Iteration 540 / LogL: -14754.280 / Time: 1h:54m:19s (0h:19m:36s left)
+Iteration 550 / LogL: -14795.071 / Time: 1h:56m:24s (0h:17m:30s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 560 / LogL: -14766.373 / Time: 1h:58m:40s (0h:15m:27s left)
+Iteration 570 / LogL: -14744.111 / Time: 2h:1m:0s (0h:13m:23s left)
+Iteration 580 / LogL: -14747.272 / Time: 2h:3m:0s (0h:11m:17s left)
+Iteration 590 / LogL: -14743.467 / Time: 2h:5m:13s (0h:9m:12s left)
+Iteration 600 / LogL: -14746.223 / Time: 2h:7m:23s (0h:7m:7s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -14717.974 / Time: 2h:9m:43s (0h:18m:53s left)
+Iteration 620 / LogL: -14723.625 / Time: 2h:12m:2s (0h:16m:48s left)
+Iteration 630 / LogL: -14752.228 / Time: 2h:14m:15s (0h:14m:43s left)
+Iteration 640 / LogL: -14736.159 / Time: 2h:16m:24s (0h:12m:37s left)
+Iteration 650 / LogL: -14730.750 / Time: 2h:18m:39s (0h:10m:32s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 660 / LogL: -14775.423 / Time: 2h:20m:56s (0h:8m:26s left)
+Iteration 670 / LogL: -14785.734 / Time: 2h:23m:12s (0h:6m:20s left)
+Iteration 680 / LogL: -14758.668 / Time: 2h:25m:23s (0h:4m:13s left)
+Iteration 690 / LogL: -14758.379 / Time: 2h:27m:39s (0h:2m:6s left)
+Iteration 700 / LogL: -14725.891 / Time: 2h:29m:58s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.978
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -14794.416 / Time: 2h:32m:18s (0h:19m:5s left)
+Iteration 720 / LogL: -14748.675 / Time: 2h:34m:51s (0h:17m:0s left)
+Iteration 730 / LogL: -14800.454 / Time: 2h:37m:5s (0h:14m:53s left)
+Iteration 740 / LogL: -14739.951 / Time: 2h:39m:20s (0h:12m:46s left)
+Iteration 750 / LogL: -14721.339 / Time: 2h:41m:39s (0h:10m:39s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 760 / LogL: -14738.222 / Time: 2h:44m:0s (0h:8m:32s left)
+Iteration 770 / LogL: -14746.575 / Time: 2h:46m:18s (0h:6m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 772: -14706.949
+Iteration 780 / LogL: -14720.968 / Time: 2h:48m:40s (0h:19m:41s left)
+Iteration 790 / LogL: -14737.339 / Time: 2h:50m:59s (0h:17m:34s left)
+Iteration 800 / LogL: -14823.632 / Time: 2h:53m:23s (0h:15m:26s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -14740.269 / Time: 2h:55m:51s (0h:19m:20s left)
+Iteration 820 / LogL: -14713.794 / Time: 2h:58m:14s (0h:17m:13s left)
+Iteration 830 / LogL: -14730.289 / Time: 3h:0m:31s (0h:15m:4s left)
+Iteration 840 / LogL: -14749.341 / Time: 3h:2m:57s (0h:12m:56s left)
+Iteration 850 / LogL: -14736.138 / Time: 3h:5m:21s (0h:10m:48s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 860 / LogL: -14822.299 / Time: 3h:7m:38s (0h:8m:38s left)
+Iteration 870 / LogL: -14730.919 / Time: 3h:10m:7s (0h:6m:29s left)
+Iteration 880 / LogL: -14716.480 / Time: 3h:12m:26s (0h:4m:20s left)
+Iteration 890 / LogL: -14752.177 / Time: 3h:14m:54s (0h:2m:10s left)
+Iteration 900 / LogL: -14740.751 / Time: 3h:17m:13s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.978
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -14737.632 / Time: 3h:19m:37s (0h:19m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 916: -14701.867
+Iteration 920 / LogL: -14719.988 / Time: 3h:22m:4s (0h:20m:54s left)
+Iteration 930 / LogL: -14709.342 / Time: 3h:39m:36s (0h:20m:9s left)
+Iteration 940 / LogL: -14728.175 / Time: 3h:58m:59s (0h:19m:11s left)
+Iteration 950 / LogL: -14764.803 / Time: 4h:33m:27s (0h:18m:52s left)
+Log-likelihood cutoff on original alignment: -14869.737
+Iteration 960 / LogL: -14738.540 / Time: 4h:35m:36s (0h:15m:58s left)
+Iteration 970 / LogL: -14719.562 / Time: 4h:37m:52s (0h:13m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 979: -14694.631
+Iteration 980 / LogL: -14729.952 / Time: 4h:40m:12s (0h:28m:8s left)
+Iteration 990 / LogL: -14735.684 / Time: 4h:42m:31s (0h:25m:15s left)
+Iteration 1000 / LogL: -14707.635 / Time: 4h:44m:48s (0h:22m:22s left)
+Log-likelihood cutoff on original alignment: -14869.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.974
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 4h:45m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -14694.631
+Optimal log-likelihood: -14694.623
+Rate parameters:  A-C: 1.11323  A-G: 1.31341  A-T: 0.60149  C-G: 0.39840  C-T: 3.23975  G-T: 1.00000
+Base frequencies:  A: 0.249  C: 0.156  G: 0.282  T: 0.314
+Proportion of invariable sites: 0.223
+Site proportion and rates:  (0.478,0.295) (0.187,1.603) (0.101,4.136) (0.011,12.787)
+Parameters optimization took 1 rounds (0.316 sec)
+BEST SCORE FOUND : -14694.623
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -14694.489 > -14694.623
+1.599 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 3-diatom_sequences_forams.trimal.fasta.splits.nex
+Total tree length: 7.722
+
+Total number of iterations: 1001
+CPU time used for tree search: 10182.493 sec (2h:49m:42s)
+Wall-clock time used for tree search: 16985.806 sec (4h:43m:5s)
+Total CPU time used: 10457.014 sec (2h:54m:17s)
+Total wall-clock time used: 17112.066 sec (4h:45m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file 3-diatom_sequences_forams.trimal.fasta.splits.nex...
+868 taxa and 39742 splits.
+Consensus tree written to 3-diatom_sequences_forams.trimal.fasta.contree
+Reading input trees file 3-diatom_sequences_forams.trimal.fasta.contree
+Log-likelihood of consensus tree: -14697.790
+
+Analysis results written to: 
+  IQ-TREE report:                3-diatom_sequences_forams.trimal.fasta.iqtree
+  Maximum-likelihood tree:       3-diatom_sequences_forams.trimal.fasta.treefile
+  Likelihood distances:          3-diatom_sequences_forams.trimal.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          3-diatom_sequences_forams.trimal.fasta.splits.nex
+  Consensus tree:                3-diatom_sequences_forams.trimal.fasta.contree
+  Screen log file:               3-diatom_sequences_forams.trimal.fasta.log
+
+Date and Time: Sat Feb  8 02:02:17 2025

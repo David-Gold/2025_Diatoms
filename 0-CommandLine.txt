@@ -1,0 +1,24 @@
+# Align sequences
+	# Requires MAFFT v7.526
+	
+mafft --retree 2 --maxiterate 1000 \
+1-diatom_sequences_forams.annotated.fasta \
+> 2-diatom_sequences_forams.alignment.fasta
+
+# Clean alignment
+	# Requires trimAl v1.4.rev15
+
+trimal -in 2-diatom_sequences_forams.alignment.fasta  \
+-out 3-diatom_sequences_forams.trimal.fasta -gappyout
+
+# Generate tree
+	# IQ-TREE v2.3.6
+iqtree2 -s 3-diatom_sequences_forams.trimal.fasta -alrt 1000 -bb 1000 -T 8
+
+# Rename IQ-TREE output
+
+for file in 3*; do
+  if [[ "$file" != "3-diatom_sequences_forams.trimal.fasta" ]]; then
+    mv "$file" "${file/3/4}"
+  fi
+done
