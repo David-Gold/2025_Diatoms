@@ -1,0 +1,776 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    LS-240394-EPS (SSE4.2, 18 GB RAM)
+Command: iqtree2 -s 3-diatom_sequences_filter.trimal.fasta -alrt 1000 -bb 1000 -T AUTO
+Seed:    894620 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 31 14:58:47 2025
+Kernel:  SSE2 - auto-detect threads (11 CPU cores detected)
+
+Reading alignment file 3-diatom_sequences_filter.trimal.fasta ... Fasta format detected
+Reading fasta file: done in 0.00385809 secs using 90.33% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 418 sequences with 377 columns, 256 distinct patterns
+217 parsimony-informative, 34 singleton sites, 126 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000144958 secs using 275.9% CPU
+   1  sq21|Psammodictyon|100                     0.00%    passed     75.51%
+   2  sq25|Chaetoceros|100                       1.06%    passed     74.63%
+   3  sq37|Pseudo-nitzschia|100                  0.00%    passed     76.86%
+   4  sq38|Navicula|100                          0.00%    passed     94.16%
+   5  sq44|Cyclotella|100                        0.00%    passed     84.12%
+   6  sq63|Skeletonema|100                       0.27%    passed     59.26%
+   7  sq111|Chaetoceros|100                      0.00%    passed     52.18%
+   8  sq163|Thalassiosira|88                     0.00%    passed     84.39%
+   9  sq190|Minutocellus|100                     0.00%    passed     93.00%
+  10  sq267|Cylindrotheca|100                    0.00%    passed     99.79%
+  11  sq280|Nitzschia|72                         0.00%    passed     55.08%
+  12  sq353|Seminavis|52                         0.00%    passed     94.33%
+  13  sq358|Navicula|100                         0.00%    passed     94.16%
+  14  sq422|Navicula|100                         0.00%    passed     94.30%
+  15  sq426|Navicula|100                         0.00%    passed     94.16%
+  16  sq442|Entomoneis|84                        1.59%    passed     99.58%
+  17  sq444|Fragilariopsis|57                    0.27%    passed     80.22%
+  18  sq468|Pseudo-nitzschia|100                 0.00%    passed     84.84%
+  19  sq531|Chaetoceros|99                       0.00%    passed     40.82%
+  20  sq588|Navicula|100                         0.00%    passed     90.70%
+  21  sq642|Thalassiosira|94                     0.00%    passed     80.51%
+  22  sq654|Nitzschia|67                         0.00%    passed     68.33%
+  23  sq680|Cylindrotheca|66                     0.00%    passed     89.14%
+  24  sq685|Pseudo-nitzschia|100                 0.00%    passed     77.64%
+  25  sq702|Achnanthidium|5                      0.00%    passed     87.33%
+  26  sq730|Stauroneis|69                        4.24%    passed     99.04%
+  27  sq754|Cerataulina|99                       0.53%    passed     83.64%
+  28  sq791|Leptocylindrus|100                   2.39%    passed     77.92%
+  29  sq806|Licmophora|64                        0.53%    passed     89.89%
+  30  sq849|Navicula|100                         0.00%    passed     90.09%
+  31  sq884|Navicula|96                          0.00%    passed     94.81%
+  32  sq920|Cymbella|82                          2.65%    passed     84.84%
+  33  sq939|Navicula|83                          0.00%    passed     90.25%
+  34  sq940|Entomoneis|27                        5.57%    passed     99.29%
+  35  sq947|Nitzschia|93                         0.00%    passed     64.70%
+  36  sq961|Navicula|99                          0.00%    passed     98.80%
+  37  sq971|Pseudo-nitzschia|52                  0.00%    passed     98.88%
+  38  sq975|Surirella|100                        0.80%    passed     96.93%
+  39  sq986|Cyclotella|67                        0.00%    passed     59.53%
+  40  sq1003|Climacosphenia|100                  2.92%    passed     68.83%
+  41  sq1010|Nitzschia|66                        0.00%    passed     99.35%
+  42  sq1032|Navicula|100                        0.00%    passed     97.13%
+  43  sq1033|Raphid-pennate_X|24                 0.00%    passed     99.82%
+  44  sq1106|Navicula|100                        0.00%    passed     93.16%
+  45  sq1131|Psammodictyon|35                    0.00%    passed     83.47%
+  46  sq1186|Nitzschia|72                        0.00%    passed     62.33%
+  47  sq1194|Minutocellus|100                    0.00%    passed     93.13%
+  48  sq1257|Nitzschia|38                        0.00%    passed     99.34%
+  49  sq1285|Amphora|85                          1.33%    passed     98.45%
+  50  sq1314|Skeletonema|61                      0.27%    passed     59.48%
+  51  sq1321|Nitzschia|80                        0.00%    passed     76.50%
+  52  sq1356|Navicula|100                        0.00%    passed     89.28%
+  53  sq1362|Pseudo-nitzschia|99                 0.00%    passed     89.44%
+  54  sq1372|Nitzschia|84                        0.80%    passed     91.91%
+  55  sq1375|Navicula|100                        0.00%    passed     94.30%
+  56  sq1386|Asterionellopsis|100                1.59%    passed     98.87%
+  57  sq1409|Psammodictyon|34                    0.00%    passed     84.67%
+  58  sq1415|Tryblionella|60                     0.00%    passed     94.24%
+  59  sq1427|Licmophora|100                      0.00%    passed     98.11%
+  60  sq1441|Nitzschia|100                       0.53%    passed     95.76%
+  61  sq1479|Navicula|100                        0.00%    passed     94.16%
+  62  sq1489|Navicula|100                        0.53%    passed     97.45%
+  63  sq1521|Licmophora|100                      0.00%    passed     80.65%
+  64  sq1527|Navicula|100                        0.00%    passed     97.39%
+  65  sq1528|Chaetoceros|100                     1.06%    passed     48.48%
+  66  sq1529|Amphiprora|81                       1.59%    passed     97.14%
+  67  sq1535|Skeletonema|100                     0.27%    passed     61.27%
+  68  sq1585|Pseudo-nitzschia|91                 0.00%    passed     85.04%
+  69  sq1590|Chaetoceros|100                     1.06%    passed     75.68%
+  70  sq1601|Nitzschia|49                        0.00%    passed     99.01%
+  71  sq1623|Navicula|100                        0.00%    passed     93.16%
+  72  sq1631|Navicula|100                        0.00%    passed     88.17%
+  73  sq1744|Nitzschia|97                        0.00%    passed     91.92%
+  74  sq1814|Nitzschia|89                        0.53%    passed     95.76%
+  75  sq1827|Skeletonema|82                      0.27%    passed     79.33%
+  76  sq1833|Navicula|100                        0.00%    passed     93.16%
+  77  sq1838|Nitzschia|65                        0.00%    passed     98.26%
+  78  sq1855|Navicula|95                         0.00%    passed     91.14%
+  79  sq1864|Berkeleya|100                       1.59%    passed     98.15%
+  80  sq1869|Navicula|100                        0.00%    passed     96.56%
+  81  sq1872|Synedra|100                         0.00%    passed     89.07%
+  82  sq1882|Skeletonema|95                      0.27%    passed     75.48%
+  83  sq1903|Navicula|100                        0.00%    passed     94.89%
+  84  sq1941|Navicula|100                        0.53%    passed     96.52%
+  85  sq1959|Skeletonema|94                      0.27%    passed     57.82%
+  86  sq1987|Nitzschia|89                        0.80%    passed     92.39%
+  87  sq1998|Pleurosigma|100                     0.00%    passed     93.39%
+  88  sq2019|Licmophora|100                      0.00%    passed     99.56%
+  89  sq2048|Cymbella|23                         1.33%    passed     84.10%
+  90  sq2055|Skeletonema|99                      0.27%    passed     47.78%
+  91  sq2069|Raphid-pennate_X|53                 0.00%    passed     87.74%
+  92  sq2071|Haslea|85                           0.00%    passed     99.19%
+  93  sq2080|Meuniera|65                         0.53%    passed     70.69%
+  94  sq2109|Navicula|100                        0.00%    passed     97.39%
+  95  sq2128|Navicula|98                         0.00%    passed     96.56%
+  96  sq2136|Skeletonema|100                     0.27%    passed     59.26%
+  97  sq2160|Psammodictyon|100                   0.00%    passed     85.48%
+  98  sq2202|Skeletonema|100                     0.27%    passed     66.26%
+  99  sq2206|Licmosphenia|99                     0.80%    passed     92.80%
+ 100  sq2211|Navicula|99                         0.00%    passed     93.06%
+ 101  sq2234|Polar-centric-Mediophyceae_X|19     0.00%    passed     56.07%
+ 102  sq2264|Amphora|29                          0.00%    passed     85.33%
+ 103  sq2266|Entomoneis|97                       1.59%    passed     96.66%
+ 104  sq2286|Nitzschia|56                        0.80%    passed     94.11%
+ 105  sq2301|Pseudo-nitzschia|100                0.00%    passed     80.35%
+ 106  sq2365|Psammodictyon|94                    0.00%    passed     92.47%
+ 107  sq2418|Striatella|100                      0.00%    passed     77.49%
+ 108  sq2470|Cyclotella|100                      0.00%    passed     82.88%
+ 109  sq2496|Amphora|71                          1.33%    passed     98.24%
+ 110  sq2507|Eunotia|32                          0.00%    passed     95.45%
+ 111  sq2523|Cymbella|30                         0.80%    passed     92.65%
+ 112  sq2547|Pleurosigma|96                      0.00%    passed     99.81%
+ 113  sq2590|Navicula|100                        0.53%    passed     84.48%
+ 114  sq2604|Amphora|73                          1.33%    passed     98.24%
+ 115  sq2634|Bacillaria|93                       0.00%    passed     97.36%
+ 116  sq2657|Cyclotella|100                      0.00%    passed     84.49%
+ 117  sq2659|Navicula|100                        0.00%    passed     97.39%
+ 118  sq2770|Achnanthidium|16                    0.00%    passed     89.43%
+ 119  sq2799|Caloneis|33                         8.22%    passed     84.46%
+ 120  sq2815|Nitzschia|86                        0.80%    passed     67.36%
+ 121  sq2829|Haslea|84                           0.00%    passed     98.99%
+ 122  sq2832|Haslea|11                           0.27%    passed     89.87%
+ 123  sq2864|Navicula|100                        0.00%    passed     96.56%
+ 124  sq2872|Entomoneis|76                       1.59%    passed     99.94%
+ 125  sq2877|Psammodictyon|100                   0.00%    passed     35.81%
+ 126  sq2927|Surirella|89                        1.06%    passed     91.54%
+ 127  sq2937|Pseudo-nitzschia|100                0.00%    passed     76.27%
+ 128  sq2940|Entomoneis|78                       1.59%    passed     99.18%
+ 129  sq2945|Grammatophora|100                   0.00%    passed     95.11%
+ 130  sq2955|Skeletonema|100                     0.27%    passed     66.26%
+ 131  sq2959|Nitzschia|77                        0.53%    passed     98.82%
+ 132  sq2996|Chaetoceros|100                     0.00%    passed     53.43%
+ 133  sq3012|Thalassiosira|92                    0.00%    passed     90.73%
+ 134  sq3019|Thalassiosira|96                    0.00%    passed     83.31%
+ 135  sq3031|Navicula|98                         0.00%    passed     99.89%
+ 136  sq3032|Navicula|100                        0.00%    passed     90.09%
+ 137  sq3055|Thalassiosira|99                    0.00%    passed     99.16%
+ 138  sq3069|Chaetoceros|86                      1.06%    passed     66.32%
+ 139  sq3079|Licmosphenia|99                     0.80%    passed     90.83%
+ 140  sq3088|Psammodictyon|100                   0.00%    passed     80.42%
+ 141  sq3091|Pleurosigma|100                     0.00%    passed     96.20%
+ 142  sq3125|Pleurosigma|100                     0.00%    passed     88.27%
+ 143  sq3151|Psammodictyon|97                    0.00%    passed     86.67%
+ 144  sq3170|Skeletonema|100                     0.27%    passed     62.36%
+ 145  sq3211|Raphid-pennate_X|22                 0.00%    passed     94.01%
+ 146  sq3230|Placoneis|56                        2.12%    passed     80.58%
+ 147  sq3306|Skeletonema|100                     0.27%    passed     69.10%
+ 148  sq3352|Amphora|87                          1.33%    passed     95.25%
+ 149  sq3353|Caloneis|9                          4.24%    passed     98.59%
+ 150  sq3378|Stauroneis|52                       2.12%    passed     96.65%
+ 151  sq3379|Licmophora|99                       0.00%    passed     81.39%
+ 152  sq3417|Chaetoceros|100                     0.00%    passed     61.68%
+ 153  sq3427|Navicula|71                         0.00%    passed     94.36%
+ 154  sq3435|Haslea|14                           0.00%    passed     90.49%
+ 155  sq3485|Hyalosira|97                        0.00%    passed     93.34%
+ 156  sq3494|Neofragilaria|40                    0.00%    passed     92.36%
+ 157  sq3517|Pseudo-nitzschia|37                 0.00%    passed     94.98%
+ 158  sq3519|Navicula|83                         0.00%    passed     90.29%
+ 159  sq3530|Cyclotella|100                      0.00%    passed     91.95%
+ 160  sq3533|Catacombas|19                       0.00%    passed     96.72%
+ 161  sq3573|Nitzschia|80                        0.00%    passed     70.48%
+ 162  sq3594|Navicula|99                         0.00%    passed     96.42%
+ 163  sq3609|Chaetoceros|93                      1.06%    passed     70.46%
+ 164  sq3640|Skeletonema|100                     0.27%    passed     66.94%
+ 165  sq3649|Amphora|9                           2.12%    passed     84.97%
+ 166  sq3681|Navicula|99                         0.00%    passed     96.25%
+ 167  sq3692|Raphid-pennate_X|31                 0.53%    passed     84.28%
+ 168  sq3710|Nitzschia|51                        0.00%    passed     94.26%
+ 169  sq3757|Nitzschia|77                        0.80%    passed     95.81%
+ 170  sq3766|Amphora|69                          1.33%    passed     98.42%
+ 171  sq3784|Navicula|76                         1.06%    passed     86.71%
+ 172  sq3798|Navicula|100                        0.00%    passed     98.82%
+ 173  sq3832|Navicula|100                        0.00%    passed     97.39%
+ 174  sq3897|Skeletonema|73                      0.00%    passed     84.85%
+ 175  sq3910|Bacillaria|30                       0.00%    passed     99.49%
+ 176  sq3921|Amphora|100                         1.33%    passed     98.67%
+ 177  sq3954|Nitzschia|71                        0.80%    passed     92.76%
+ 178  sq3958|Amphiprora|30                       1.59%    passed     85.76%
+ 179  sq3980|Chaetoceros|99                      1.33%    passed     66.12%
+ 180  sq4015|Nitzschia|81                        0.00%    passed     81.03%
+ 181  sq4026|Bacillaria|10                       0.27%    passed     99.73%
+ 182  sq4028|Achnanthes|14                       0.27%    passed     97.92%
+ 183  sq4066|Navicula|74                         0.00%    passed     90.29%
+ 184  sq4100|Navicula|99                         0.00%    passed     98.03%
+ 185  sq4128|Entomoneis|66                       1.59%    passed     99.43%
+ 186  sq4200|Cyclotella|100                      0.00%    passed     65.21%
+ 187  sq4207|Haslea|49                           0.00%    passed     91.68%
+ 188  sq4236|Gyrosigma|18                        0.27%    passed     96.45%
+ 189  sq4254|Planothidium|18                     1.33%    passed     90.41%
+ 190  sq4255|Proboscia|96                        0.00%    passed     61.88%
+ 191  sq4289|Navicula|100                        0.00%    passed     89.44%
+ 192  sq4292|Navicula|100                        0.00%    passed     91.25%
+ 193  sq4300|Tabularia|100                       0.00%    passed     98.53%
+ 194  sq4332|Hyalosynedra|71                     0.00%    passed     95.17%
+ 195  sq4339|Pteroncola|100                      0.00%    passed     99.59%
+ 196  sq4351|Epithemia|45                        1.59%    passed     94.92%
+ 197  sq4375|Chaetoceros|100                     0.53%    passed     29.87%
+ 198  sq4385|Nitzschia|69                        0.00%    passed     98.53%
+ 199  sq4426|Dactyliosolen|100                   0.27%    passed     79.77%
+ 200  sq4448|Psammodictyon|100                   0.00%    passed     62.55%
+ 201  sq4461|Amphora|89                          1.33%    passed     99.49%
+ 202  sq4494|Nitzschia|99                        0.53%    passed     98.11%
+ 203  sq4597|Nitzschia|59                        0.00%    passed     88.67%
+ 204  sq4628|Stephanodiscus|68                   0.00%    passed     94.39%
+ 205  sq4639|Cocconeis|100                       4.51%    passed     58.87%
+ 206  sq4649|Leptocylindrus|100                  2.12%    passed     78.87%
+ 207  sq4676|Navicula|98                         1.06%    passed     90.39%
+ 208  sq4692|Amphora|81                          1.33%    passed     97.20%
+ 209  sq4712|Naviculaceae_X|71                   3.45%    passed     96.11%
+ 210  sq4729|Chaetoceros|100                     0.00%    passed     54.46%
+ 211  sq4736|Psammodictyon|37                    0.00%    passed     73.14%
+ 212  sq4751|Haslea|22                           0.00%    passed     46.79%
+ 213  sq4784|Fragilariforma|16                   0.27%    passed     98.63%
+ 214  sq4808|Skeletonema|100                     0.27%    passed     69.10%
+ 215  sq4841|Bacillaria|41                       0.00%    passed     66.41%
+ 216  sq4893|Nitzschia|77                        0.00%    passed     56.93%
+ 217  sq4897|Navicula|100                        0.00%    passed     90.39%
+ 218  sq4899|Psammodictyon|30                    0.00%    passed     74.44%
+ 219  sq4918|Licmophora|100                      0.00%    passed     58.17%
+ 220  sq4947|Amphora|95                          1.33%    passed     99.95%
+ 221  sq4996|Amphora|99                          1.33%    passed     97.07%
+ 222  sq5005|Nitzschia|98                        0.80%    passed     92.82%
+ 223  sq5030|Entomoneis|95                       0.80%    passed     99.09%
+ 224  sq5045|Amphora|81                          1.59%    passed     94.50%
+ 225  sq5059|Cyclophora|59                       0.00%    passed     97.80%
+ 226  sq5066|Navicula|86                         0.00%    passed     96.56%
+ 227  sq5140|Skeletonema|100                     0.27%    passed     51.12%
+ 228  sq5157|Sellaphora|19                       0.80%    passed     95.33%
+ 229  sq5167|Chaetoceros|84                      0.00%    passed     70.06%
+ 230  sq5234|Minidiscus|100                      0.27%    passed     50.79%
+ 231  sq5238|Rhizosolenia|76                     0.00%    passed     70.20%
+ 232  sq5269|Navicula|85                         0.00%    passed     92.20%
+ 233  sq5327|Amphora|68                          5.57%    passed     86.93%
+ 234  sq5390|Raphid-pennate_X|20                 0.27%    passed     97.88%
+ 235  sq5393|Chaetoceros|99                      1.06%    passed     77.01%
+ 236  sq5400|Achnanthes|100                      0.00%    passed     78.52%
+ 237  sq5501|Amphora|19                          4.51%    passed     97.75%
+ 238  sq5508|Licmophora|72                       0.27%    passed     98.20%
+ 239  sq5525|Nitzschia|90                        0.00%    passed     63.53%
+ 240  sq5585|Synedra|13                          0.00%    passed     67.67%
+ 241  sq5595|Raphid-pennate_X|32                 1.33%    passed     98.83%
+ 242  sq5613|Licmosphenia|97                     0.80%    passed     92.80%
+ 243  sq5631|Amphora|71                          1.59%    passed     97.04%
+ 244  sq5688|Achnanthes|21                       0.27%    passed     97.64%
+ 245  sq5694|Chaetoceros|100                     1.06%    passed     64.02%
+ 246  sq5702|Climacosphenia|100                  2.92%    passed     68.24%
+ 247  sq5719|Chaetoceros|100                     0.00%    passed     58.07%
+ 248  sq5745|Amphora|79                          1.33%    passed     97.53%
+ 249  sq5750|Pinnularia|24                       3.45%    passed     41.03%
+ 250  sq5804|Nitzschia|99                        0.00%    passed     95.99%
+ 251  sq5806|Nitzschia|98                        0.00%    passed     95.99%
+ 252  sq5829|Raphid-pennate_X|17                 0.00%    passed     98.29%
+ 253  sq5830|Navicula|74                         0.00%    passed     98.50%
+ 254  sq5862|Mastogloia|23                       4.51%    passed     96.33%
+ 255  sq5863|Cylindrotheca|77                    0.00%    passed     99.93%
+ 256  sq5865|Cymbella|86                         2.65%    passed     82.98%
+ 257  sq5880|Cymbella|38                         0.00%    passed     99.93%
+ 258  sq5887|Psammodictyon|100                   0.00%    passed     63.77%
+ 259  sq5938|Nitzschia|99                        0.00%    passed     95.76%
+ 260  sq5941|Psammodictyon|100                   0.00%    passed     46.14%
+ 261  sq5944|Entomoneis|88                       0.80%    passed     98.86%
+ 262  sq6038|Nitzschia|99                        0.00%    passed     95.51%
+ 263  sq6044|Tabularia|23                        0.00%    passed     94.90%
+ 264  sq6045|Fallacia|1                          2.12%    passed     75.51%
+ 265  sq6100|Thalassiosira|82                    0.00%    passed     80.45%
+ 266  sq6133|Nitzschia|98                        0.00%    passed     98.73%
+ 267  sq6194|Pseudo-nitzschia|98                 0.00%    passed    100.00%
+ 268  sq6204|Raphid-pennate_X|33                 0.00%    passed     94.33%
+ 269  sq6220|Nitzschia|69                        0.80%    passed     89.21%
+ 270  sq6235|Navicula|86                         0.00%    passed     99.85%
+ 271  sq6240|Synedra|79                          0.00%    passed     93.19%
+ 272  sq6280|Chaetoceros|100                     1.06%    passed     75.79%
+ 273  sq6307|Cocconeis|100                       4.51%    passed     44.37%
+ 274  sq6385|Cerataulina|85                      0.53%    passed     92.07%
+ 275  sq6402|Chaetoceros|100                     0.00%    passed     53.89%
+ 276  sq6421|Cocconeis|100                       4.77%    passed     43.30%
+ 277  sq6474|Chaetoceros|100                     1.06%    passed     60.40%
+ 278  sq6494|Chaetoceros|100                     0.00%    passed     60.32%
+ 279  sq6573|Chaetoceros|99                      1.06%    passed     83.71%
+ 280  sq6594|Skeletonema|100                     0.27%    passed     49.24%
+ 281  sq6607|Chaetoceros|100                     0.00%    passed     57.03%
+ 282  sq6609|Bacteriastrum|100                   0.53%    passed     68.51%
+ 283  sq6655|Hyalosira|100                       0.00%    passed     60.17%
+ 284  sq6695|Licmophora|100                      0.00%    passed     66.42%
+ 285  sq6699|Chaetoceros|100                     1.06%    passed     75.67%
+ 286  sq6702|Navicula|100                        0.00%    passed     90.09%
+ 287  sq6715|Chaetoceros|100                     0.27%    passed     99.96%
+ 288  sq6728|Navicula|100                        0.00%    passed     90.80%
+ 289  sq6735|Chaetoceros|100                     0.00%    passed     59.60%
+ 290  sq6770|Pseudo-nitzschia|100                0.00%    passed     77.44%
+ 291  sq6791|Navicula|87                         0.00%    passed     99.41%
+ 292  sq6792|Thalassiosira|85                    0.00%    passed     99.16%
+ 293  sq6805|Pinnularia|22                       2.39%    passed     84.94%
+ 294  sq6806|Haslea|68                           0.00%    passed     97.14%
+ 295  sq6819|Chaetoceros|100                     1.06%    passed     91.98%
+ 296  sq6876|Cymbella|81                         0.80%    passed     94.31%
+ 297  sq6885|Skeletonema|100                     0.27%    passed     62.36%
+ 298  sq6888|Guinardia|100                       0.00%    passed     62.16%
+ 299  sq6916|Haslea|53                           0.27%    passed     97.98%
+ 300  sq6927|Navicula|54                         1.06%    passed     82.71%
+ 301  sq6928|Conticribra|100                     0.00%    passed     95.15%
+ 302  sq7007|Thalassiosira|95                    0.00%    passed     90.69%
+ 303  sq7027|Nitzschia|88                        0.00%    passed     70.36%
+ 304  sq7038|Raphid-pennate_X|84                 0.00%    passed     99.20%
+ 305  sq7112|Achnanthes|67                       0.27%    passed     95.64%
+ 306  sq7153|Cerataulina|88                      0.53%    passed     81.67%
+ 307  sq7156|Nitzschia|14                        4.77%    passed     27.44%
+ 308  sq7187|Chaetoceros|100                     0.00%    passed     69.03%
+ 309  sq7258|Skeletonema|100                     0.27%    passed     37.71%
+ 310  sq7293|Cylindrotheca|100                   0.00%    passed     99.49%
+ 311  sq7310|Nitzschia|67                        0.00%    passed     82.14%
+ 312  sq7415|Navicula|100                        0.00%    passed     90.96%
+ 313  sq7418|Nitzschia|98                        0.00%    passed     81.65%
+ 314  sq7679|Navicula|81                         0.00%    passed     97.16%
+ 315  sq7703|Synedra|96                          2.92%    passed     95.69%
+ 316  sq7709|Bacillaria|35                       0.00%    passed     98.99%
+ 317  sq7749|Chaetoceros|100                     0.00%    passed     92.31%
+ 318  sq7750|Nitzschia|48                        1.06%    passed     98.73%
+ 319  sq7807|Skeletonema|100                     0.27%    passed     69.02%
+ 320  sq7818|Navicula|89                         0.00%    passed     99.60%
+ 321  sq7822|Nitzschia|59                        0.80%    passed     91.54%
+ 322  sq7824|Cymbella|39                         1.59%    passed     99.58%
+ 323  sq7828|Achnanthes|62                       0.27%    passed     97.92%
+ 324  sq7844|Cylindrotheca|96                    0.00%    passed     99.79%
+ 325  sq7867|Chaetoceros|100                     1.06%    passed     80.65%
+ 326  sq8006|Pseudo-nitzschia|100                0.00%    passed     98.71%
+ 327  sq8023|Gyrosigma|7                         0.27%    passed     97.98%
+ 328  sq8031|Raphid-pennate_X|35                 0.00%    passed     98.50%
+ 329  sq8127|Licmophora|99                       0.00%    passed     49.46%
+ 330  sq8168|Amphora|21                          1.06%    passed     90.47%
+ 331  sq8248|Navicula|100                        0.00%    passed     96.25%
+ 332  sq8305|Chaetoceros|100                     1.06%    passed     94.85%
+ 333  sq8327|Entomoneis|67                       1.59%    passed     97.14%
+ 334  sq8342|Chaetoceros|100                     1.06%    passed     82.62%
+ 335  sq8343|Nitzschia|58                        0.80%    passed     91.26%
+ 336  sq8363|Stauroneis|74                       2.39%    passed     91.28%
+ 337  sq8366|Tabularia|13                        0.00%    passed     96.63%
+ 338  sq8382|Chaetoceros|100                     0.00%    passed     97.69%
+ 339  sq8393|Cyclotella|100                      0.00%    passed     64.08%
+ 340  sq8455|Skeletonema|77                      0.27%    passed     72.71%
+ 341  sq8466|Tabularia|20                        0.27%    passed     97.94%
+ 342  sq8491|Chaetoceros|100                     0.00%    passed     93.79%
+ 343  sq8493|Surirella|50                        1.06%    passed     93.54%
+ 344  sq8496|Nitzschia|64                        0.00%    passed     99.36%
+ 345  sq8514|Licmophora|100                      0.27%    passed     99.50%
+ 346  sq8518|Nitzschia|64                        0.00%    passed     81.03%
+ 347  sq8522|Cylindrotheca|93                    0.00%    passed     99.74%
+ 348  sq8591|Chaetoceros|100                     0.00%    passed     99.20%
+ 349  sq8600|Amphora|99                          3.98%    passed     67.29%
+ 350  sq8675|Chaetoceros|100                     0.00%    passed     48.34%
+ 351  sq8678|Amphora|88                          1.33%    passed     98.71%
+ 352  sq8711|Nitzschia|91                        0.00%    passed     92.36%
+ 353  sq8730|Cocconeis|100                       4.51%    passed     59.44%
+ 354  sq8746|Nitzschia|82                        0.80%    passed     93.53%
+ 355  sq8814|Navicula|26                         2.12%    passed     96.30%
+ 356  sq8821|Biddulphia|39                       0.00%    passed     77.47%
+ 357  sq8860|Psammodictyon|86                    0.00%    passed     80.42%
+ 358  sq8894|Cylindrotheca|100                   0.00%    passed     99.98%
+ 359  sq8897|Thalassiosira|82                    0.00%    passed     51.70%
+ 360  sq8898|Navicula|98                         0.00%    passed     86.02%
+ 361  sq8910|Tabularia|7                         0.00%    passed     98.57%
+ 362  sq8970|Navicula|99                         0.00%    passed     84.45%
+ 363  sq8976|Bacillaria|51                       0.00%    passed     98.04%
+ 364  sq9026|Entomoneis|100                      1.59%    passed     98.59%
+ 365  sq9032|Navicula|100                        0.00%    passed     93.16%
+ 366  sq9043|Haslea|59                           0.00%    passed     98.26%
+ 367  sq9078|Nitzschia|27                        1.06%    passed     89.25%
+ 368  sq9080|Amphora|95                          1.33%    passed     98.90%
+ 369  sq9173|Ardissonea|85                       2.92%    passed     60.73%
+ 370  sq9196|Licmophora|100                      0.00%    passed     57.48%
+ 371  sq9212|Pseudo-nitzschia|100                0.00%    passed     77.64%
+ 372  sq9310|Achnanthes|39                       0.27%    passed     96.41%
+ 373  sq9341|Chaetoceros|100                     1.06%    passed     77.25%
+ 374  sq9343|Pseudo-nitzschia|100                0.00%    passed     96.72%
+ 375  sq9347|Entomoneis|67                       1.59%    passed     97.37%
+ 376  sq9348|Amphora|38                          0.27%    passed     39.49%
+ 377  sq9393|Pleurosigma|99                      0.00%    passed     94.94%
+ 378  sq9447|Nitzschia|81                        0.00%    passed     65.75%
+ 379  sq9487|Psammodictyon|100                   0.00%    passed     80.42%
+ 380  sq9540|Epithemia|46                        1.59%    passed     97.52%
+ 381  sq9543|Navicula|100                        0.00%    passed     99.59%
+ 382  sq9567|Raphid-pennate_X|70                 0.00%    passed     58.21%
+ 383  sq9699|Achnanthes|13                       0.27%    passed     92.44%
+ 384  sq9700|Raphid-pennate_X|46                 0.00%    passed     80.51%
+ 385  sq9702|Bacillaria|31                       0.00%    passed     85.33%
+ 386  sq9723|Haslea|69                           0.00%    passed     98.99%
+ 387  sq9739|Navicula|100                        0.00%    passed     96.25%
+ 388  sq9740|Raphid-pennate_X|19                 0.00%    passed     99.19%
+ 389  sq9748|Chaetoceros|100                     0.00%    passed     56.68%
+ 390  sq9799|Entomoneis|96                       0.80%    passed     98.86%
+ 391  sq9819|Cymbella|73                         0.80%    passed     97.87%
+ 392  sq9822|Cymbella|31                         3.45%    passed     98.98%
+ 393  sq9884|Amphora|65                          1.59%    passed     95.38%
+ 394  sq9886|Thalassiosira|100                   0.00%    passed     49.92%
+ 395  sq9888|Hyalosira|95                        0.00%    passed     28.50%
+ 396  sq9919|Bacillaria|32                       0.00%    passed     82.72%
+ 397  sq9931|Amphora|62                          1.33%    passed     99.44%
+ 398  sq9964|Chaetoceros|97                      1.06%    passed     81.48%
+ 399  sq9980|Chaetoceros|100                     0.00%    passed     67.80%
+ 400  sq10017|Chaetoceros|100                    0.00%    passed     89.14%
+ 401  sq10035|Entomoneis|72                      1.59%    passed     99.90%
+ 402  sq10039|Cylindrotheca|72                   0.00%    passed     99.70%
+ 403  sq10063|Cymbella|27                        2.39%    passed     75.33%
+ 404  sq10065|Mastogloia|100                     4.24%    passed     88.03%
+ 405  sq10127|Amphora|95                         1.33%    passed     96.90%
+ 406  sq10152|Rhizosolenia|100                   0.00%    passed     87.76%
+ 407  sq10155|Cymbella|63                        0.80%    passed     95.91%
+ 408  sq10245|Navicula|99                        0.27%    passed     93.69%
+ 409  sq10267|Psammodictyon|42                   0.00%    passed     65.08%
+ 410  sq10285|Licmophora|75                      0.27%    passed     99.50%
+ 411  sq10318|Polar-centric-Mediophyceae_X|75    0.27%    passed     86.37%
+ 412  sq10321|Thalassiosira|96                   0.00%    passed     84.93%
+ 413  sq10446|Rhopalodia|45                      5.57%    passed     97.69%
+ 414  sq10452|Synedra|94                         0.00%    passed     85.48%
+ 415  sq10463|Licmophora|100                     0.00%    passed     62.66%
+ 416  sq10504|Pseudo-nitzschia|100               0.00%    passed     77.44%
+ 417  sq10513|Rossia|100                         1.33%    passed     95.57%
+ 418  sq10549|Hyalosira|35                       0.00%    passed     93.00%
+****  TOTAL                                      0.59%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: sq5613|Licmosphenia|97 is identical to sq2206|Licmosphenia|99 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.030 seconds
+Measuring multi-threading efficiency up to 11 CPU cores
+Increase to 10 rounds for branch lengths
+52 trees examined
+Threads: 1 / Time: 11.227 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -42982
+Threads: 2 / Time: 13.798 sec / Speedup: 0.814 / Efficiency: 41% / LogL: -42982
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -17963.977
+Optimal log-likelihood: -17963.608
+Rate parameters:  A-C: 0.76474  A-G: 2.10772  A-T: 0.77436  C-G: 0.83147  C-T: 3.85938  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.154  G: 0.271  T: 0.320
+Proportion of invariable sites: 0.279
+Gamma shape alpha: 0.643
+Parameters optimization took 1 rounds (0.137 sec)
+Time for fast ML tree search: 1.211 seconds
+
+NOTE: ModelFinder requires 36 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 377 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         20896.322    841 43474.645    1459718.645  46781.663
+  2  GTR+F+I       19601.808    842 40887.616    1460499.616  44198.566
+  3  GTR+F+G4      18013.131    842 37710.261    1457322.261  41021.212
+  4  GTR+F+I+G4    17963.555    843 37613.111    1460597.111  40927.994
+  5  GTR+F+R2      18437.972    843 38561.945    1461545.945  41876.827
+  6  GTR+F+R3      18026.146    845 37742.291    1467482.291  41065.038
+  7  GTR+F+R4      17958.818    847 37611.635    1474123.635  40942.247
+  8  GTR+F+R5      17926.577    849 37551.154    1480851.154  40889.630
+  9  GTR+F+R6      17917.413    851 37536.826    1487640.826  40883.166
+ 10  GTR+F+R7      17917.223    853 37540.447    1494464.447  40894.652
+ 14  GTR+F+I+R2    18291.600    844 38271.200    1464631.200  41590.015
+ 15  GTR+F+I+R3    17972.716    846 37637.432    1470761.432  40964.111
+ 16  GTR+F+I+R4    17947.039    848 37590.078    1477494.078  40924.622
+ 17  GTR+F+I+R5    17923.876    850 37547.751    1484247.751  40890.160
+ 18  GTR+F+I+R6    17919.409    852 37542.818    1491054.818  40893.091
+ 30  SYM+R5        17939.433    846 37570.865    1470694.865  40897.545
+ 31  SYM+R6        17932.339    848 37560.677    1477464.677  40895.221
+ 39  SYM+I+R5      17935.062    847 37564.124    1474076.124  40894.736
+ 40  SYM+I+R6      17930.133    849 37558.265    1480858.265  40896.741
+ 52  TVM+F+R5      17986.348    848 37668.696    1477572.696  41003.240
+ 53  TVM+F+R6      17980.276    850 37660.551    1484360.551  41002.960
+ 61  TVM+F+I+R5    17982.759    849 37663.518    1480963.518  41001.994
+ 62  TVM+F+I+R6    17978.242    851 37658.484    1487762.484  41004.825
+ 74  TVMe+R5       17963.156    845 37616.312    1467356.312  40939.059
+ 75  TVMe+R6       17960.205    847 37614.411    1474126.411  40945.023
+ 83  TVMe+I+R5     17957.304    846 37606.608    1470730.608  40933.287
+ 84  TVMe+I+R6     17953.690    848 37603.381    1477507.381  40937.924
+ 96  TIM3+F+R5     17929.585    847 37553.170    1474065.170  40883.782
+ 97  TIM3+F+R6     17919.588    849 37537.177    1480837.177  40875.653
+105  TIM3+F+I+R5   17926.703    848 37549.406    1477453.406  40883.950
+106  TIM3+F+I+R6   17920.465    850 37540.930    1484240.930  40883.339
+118  TIM3e+R5      17946.000    844 37580.000    1463940.000  40898.815
+119  TIM3e+R6      17938.416    846 37568.833    1470692.833  40895.512
+127  TIM3e+I+R5    17941.251    845 37572.501    1467312.501  40895.248
+128  TIM3e+I+R6    17935.579    847 37565.159    1474077.159  40895.770
+140  TIM2+F+R5     17927.404    847 37548.808    1474060.808  40879.420
+141  TIM2+F+R6     17917.251    849 37532.501    1480832.501  40870.977
+149  TIM2+F+I+R5   17924.450    848 37544.899    1477448.899  40879.443
+150  TIM2+F+I+R6   17918.317    850 37536.634    1484236.634  40879.042
+162  TIM2e+R5      18001.880    844 37691.759    1464051.759  41010.574
+163  TIM2e+R6      17994.769    846 37681.538    1470805.538  41008.218
+171  TIM2e+I+R5    17998.530    845 37687.060    1467427.060  41009.807
+172  TIM2e+I+R6    17992.645    847 37679.289    1474191.289  41009.901
+184  TIM+F+R5      17928.596    847 37551.193    1474063.193  40881.805
+185  TIM+F+R6      17918.089    849 37534.178    1480834.178  40872.654
+193  TIM+F+I+R5    17925.804    848 37547.609    1477451.609  40882.153
+194  TIM+F+I+R6    17919.226    850 37538.452    1484238.452  40880.860
+206  TIMe+R5       17997.618    844 37683.235    1464043.235  41002.050
+207  TIMe+R6       17990.384    846 37672.768    1470796.768  40999.447
+215  TIMe+I+R5     17994.137    845 37678.275    1467418.275  41001.022
+216  TIMe+I+R6     17988.103    847 37670.206    1474182.206  41000.817
+228  TPM3u+F+R5    17989.442    846 37670.883    1470794.883  40997.563
+229  TPM3u+F+R6    17983.119    848 37662.238    1477566.238  40996.782
+237  TPM3u+F+I+R5  17986.342    847 37666.684    1474178.684  40997.296
+238  TPM3u+F+I+R6  17981.471    849 37660.941    1480960.941  40999.417
+250  TPM3+R5       17969.941    843 37625.882    1460609.882  40940.764
+251  TPM3+R6       17967.104    845 37624.208    1467364.208  40946.955
+259  TPM3+I+R5     17964.040    844 37616.079    1463976.079  40934.894
+260  TPM3+I+R6     17960.253    846 37612.506    1470736.506  40939.185
+272  TPM2u+F+R5    17988.272    846 37668.544    1470792.544  40995.223
+273  TPM2u+F+R6    17981.685    848 37659.369    1477563.369  40993.913
+281  TPM2u+F+I+R5  17985.794    847 37665.587    1474177.587  40996.199
+282  TPM2u+F+I+R6  17980.872    849 37659.744    1480959.744  40998.221
+294  TPM2+R5       18026.423    843 37738.846    1460722.846  41053.728
+295  TPM2+R6       18021.977    845 37733.955    1467473.955  41056.702
+303  TPM2+I+R5     18021.798    844 37731.597    1464091.597  41050.412
+304  TPM2+I+R6     18017.800    846 37727.599    1470851.599  41054.279
+316  K3Pu+F+R5     17989.811    846 37671.622    1470795.622  40998.302
+317  K3Pu+F+R6     17983.170    848 37662.339    1477566.339  40996.883
+325  K3Pu+F+I+R5   17987.346    847 37668.692    1474180.692  40999.303
+326  K3Pu+F+I+R6   17982.368    849 37662.737    1480962.737  41001.213
+338  K3P+R5        18022.407    843 37730.814    1460714.814  41045.696
+339  K3P+R6        18017.897    845 37725.793    1467465.793  41048.540
+347  K3P+I+R5      18017.644    844 37723.288    1464083.288  41042.103
+348  K3P+I+R6      18013.569    846 37719.138    1470843.138  41045.818
+360  TN+F+R5       17929.984    846 37551.968    1470675.968  40878.647
+361  TN+F+R6       17919.341    848 37534.682    1477438.682  40869.225
+369  TN+F+I+R5     17927.867    847 37549.733    1474061.733  40880.345
+370  TN+F+I+R6     17920.851    849 37539.702    1480839.702  40878.178
+382  TNe+R5        18006.183    843 37698.366    1460682.366  41013.248
+383  TNe+R6        17999.317    845 37688.633    1467428.633  41011.380
+391  TNe+I+R5      18002.869    844 37693.738    1464053.738  41012.553
+392  TNe+I+R6      17996.826    846 37685.652    1470809.652  41012.332
+404  HKY+F+R5      17991.560    845 37673.121    1467413.121  40995.868
+405  HKY+F+R6      17985.130    847 37664.261    1474176.261  40994.873
+413  HKY+F+I+R5    17989.392    846 37670.784    1470794.784  40997.463
+414  HKY+F+I+R6    17984.332    848 37664.665    1477568.665  40999.209
+426  K2P+R5        18031.263    842 37746.526    1457358.526  41057.476
+427  K2P+R6        18027.142    844 37742.284    1464102.284  41061.099
+435  K2P+I+R5      18026.671    843 37739.342    1460723.342  41054.225
+436  K2P+I+R6      18022.780    845 37735.559    1467475.559  41058.306
+448  F81+F+R5      18550.767    844 38789.534    1465149.534  42108.349
+449  F81+F+R6      18546.100    846 38784.199    1471908.199  42110.879
+457  F81+F+I+R5    18547.487    845 38784.974    1468524.974  42107.721
+458  F81+F+I+R6    18544.058    847 38782.117    1475294.117  42112.728
+470  JC+R5         18547.400    841 38776.801    1455020.801  42083.819
+471  JC+R6         18544.037    843 38774.075    1461758.075  42088.957
+479  JC+I+R5       18542.827    842 38769.654    1458381.654  42080.605
+480  JC+I+R6       18539.633    844 38767.265    1465127.265  42086.080
+Akaike Information Criterion:           TIM2+F+R6
+Corrected Akaike Information Criterion: JC+R5
+Bayesian Information Criterion:         TN+F+R6
+Best-fit model: TN+F+R6 chosen according to BIC
+
+All model information printed to 3-diatom_sequences_filter.trimal.fasta.model.gz
+CPU time for ModelFinder: 177.462 seconds (0h:2m:57s)
+Wall-clock time for ModelFinder: 177.342 seconds (0h:2m:57s)
+Generating 1000 samples for ultrafast bootstrap (seed: 894620)...
+
+NOTE: 22 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -18550.566
+2. Current log-likelihood: -17935.823
+3. Current log-likelihood: -17922.640
+4. Current log-likelihood: -17920.445
+5. Current log-likelihood: -17919.677
+6. Current log-likelihood: -17919.382
+Optimal log-likelihood: -17919.274
+Rate parameters:  A-C: 1.00000  A-G: 2.39265  A-T: 1.00000  C-G: 1.00000  C-T: 4.57767  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.154  G: 0.271  T: 0.320
+Site proportion and rates:  (0.440,0.027) (0.191,0.280) (0.113,0.982) (0.119,1.750) (0.086,3.573) (0.051,6.011)
+Parameters optimization took 6 rounds (2.029 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.298297 secs using 99.9% CPU
+Computing ML distances took 0.298693 sec (of wall-clock time) 0.298239 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00215411 secs using 94.7% CPU
+Computing RapidNJ tree took 0.011223 sec (of wall-clock time) 0.014398 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -18407.562
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.418 second
+Computing log-likelihood of 98 initial trees ... 3.727 seconds
+Current best score: -17919.274
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -17909.072
+Iteration 10 / LogL: -17951.250 / Time: 0h:3m:23s
+Iteration 20 / LogL: -17955.693 / Time: 0h:3m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -17909.072 / CPU time: 40.788
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -17897.626
+Iteration 30 / LogL: -17897.626 / Time: 0h:3m:59s (0h:3m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -17894.403
+Iteration 40 / LogL: -17894.403 / Time: 0h:4m:16s (0h:3m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -17892.687
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -17882.580
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -17854.638
+Iteration 50 / LogL: -17882.745 / Time: 0h:4m:35s (0h:3m:16s left)
+Log-likelihood cutoff on original alignment: -17976.425
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -17844.740
+Iteration 60 / LogL: -17903.579 / Time: 0h:4m:54s (0h:3m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -17833.653
+Iteration 70 / LogL: -17846.115 / Time: 0h:5m:11s (0h:3m:10s left)
+Iteration 80 / LogL: -17901.563 / Time: 0h:5m:29s (0h:2m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -17830.469
+Iteration 90 / LogL: -17830.469 / Time: 0h:5m:46s (0h:3m:10s left)
+Iteration 100 / LogL: -17836.186 / Time: 0h:6m:4s (0h:2m:49s left)
+Log-likelihood cutoff on original alignment: -17976.425
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.918
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -17827.787
+Iteration 110 / LogL: -17849.268 / Time: 0h:6m:23s (0h:2m:57s left)
+Iteration 120 / LogL: -17839.206 / Time: 0h:6m:41s (0h:2m:38s left)
+Iteration 130 / LogL: -17847.609 / Time: 0h:6m:59s (0h:2m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 131: -17823.895
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 134: -17820.220
+Iteration 140 / LogL: -17855.230 / Time: 0h:7m:18s (0h:2m:56s left)
+Iteration 150 / LogL: -17851.315 / Time: 0h:7m:36s (0h:2m:37s left)
+Log-likelihood cutoff on original alignment: -17976.425
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 154: -17817.782
+Iteration 160 / LogL: -17841.325 / Time: 0h:7m:56s (0h:2m:56s left)
+Iteration 170 / LogL: -17866.938 / Time: 0h:8m:14s (0h:2m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 171: -17816.193
+Iteration 180 / LogL: -17830.544 / Time: 0h:8m:34s (0h:2m:51s left)
+Iteration 190 / LogL: -17830.013 / Time: 0h:8m:53s (0h:2m:32s left)
+Iteration 200 / LogL: -17827.854 / Time: 0h:9m:12s (0h:2m:13s left)
+Log-likelihood cutoff on original alignment: -17976.425
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.962
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 202: -17813.553
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -17809.466
+Iteration 210 / LogL: -17845.299 / Time: 0h:9m:33s (0h:3m:1s left)
+Iteration 220 / LogL: -17830.084 / Time: 0h:9m:53s (0h:2m:43s left)
+Iteration 230 / LogL: -17824.864 / Time: 0h:10m:12s (0h:2m:24s left)
+Iteration 240 / LogL: -17843.653 / Time: 0h:10m:31s (0h:2m:5s left)
+Iteration 250 / LogL: -17819.226 / Time: 0h:10m:50s (0h:1m:46s left)
+Log-likelihood cutoff on original alignment: -17976.425
+Iteration 260 / LogL: -17838.143 / Time: 0h:11m:9s (0h:1m:27s left)
+Iteration 270 / LogL: -17924.695 / Time: 0h:11m:28s (0h:1m:8s left)
+Iteration 280 / LogL: -17824.579 / Time: 0h:11m:48s (0h:0m:49s left)
+Iteration 290 / LogL: -17830.824 / Time: 0h:12m:7s (0h:0m:30s left)
+Iteration 300 / LogL: -17832.693 / Time: 0h:12m:25s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -17968.767
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.964
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 309: -17806.321
+Iteration 310 / LogL: -17832.962 / Time: 0h:12m:46s (0h:3m:8s left)
+Iteration 320 / LogL: -17818.051 / Time: 0h:13m:5s (0h:2m:49s left)
+Iteration 330 / LogL: -17882.917 / Time: 0h:13m:23s (0h:2m:30s left)
+Iteration 340 / LogL: -17825.967 / Time: 0h:13m:42s (0h:2m:11s left)
+Iteration 350 / LogL: -17828.908 / Time: 0h:14m:0s (0h:1m:52s left)
+Log-likelihood cutoff on original alignment: -17968.767
+Iteration 360 / LogL: -17828.139 / Time: 0h:14m:19s (0h:1m:33s left)
+Iteration 370 / LogL: -17817.008 / Time: 0h:14m:39s (0h:1m:14s left)
+Iteration 380 / LogL: -17815.544 / Time: 0h:14m:58s (0h:0m:55s left)
+Iteration 390 / LogL: -17847.603 / Time: 0h:15m:17s (0h:0m:36s left)
+Iteration 400 / LogL: -17844.380 / Time: 0h:15m:35s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -17968.767
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 404: -17806.243
+Iteration 410 / LogL: -17819.379 / Time: 0h:15m:56s (0h:2m:58s left)
+Iteration 420 / LogL: -17833.229 / Time: 0h:16m:15s (0h:2m:39s left)
+Iteration 430 / LogL: -17832.572 / Time: 0h:16m:36s (0h:2m:21s left)
+Iteration 440 / LogL: -17825.766 / Time: 0h:16m:54s (0h:2m:2s left)
+Iteration 450 / LogL: -17872.789 / Time: 0h:17m:14s (0h:1m:43s left)
+Log-likelihood cutoff on original alignment: -17958.024
+Iteration 460 / LogL: -17880.803 / Time: 0h:17m:34s (0h:1m:24s left)
+Iteration 470 / LogL: -17976.414 / Time: 0h:17m:52s (0h:1m:4s left)
+Iteration 480 / LogL: -17824.943 / Time: 0h:18m:13s (0h:0m:45s left)
+Iteration 490 / LogL: -17847.887 / Time: 0h:18m:32s (0h:0m:26s left)
+Iteration 500 / LogL: -17863.844 / Time: 0h:18m:50s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -17958.024
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -17839.867 / Time: 0h:19m:10s (0h:2m:52s left)
+Iteration 520 / LogL: -17825.409 / Time: 0h:19m:28s (0h:2m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 524: -17803.001
+Iteration 530 / LogL: -17872.887 / Time: 0h:19m:47s (0h:2m:59s left)
+Iteration 540 / LogL: -17839.538 / Time: 0h:20m:6s (0h:2m:40s left)
+Iteration 550 / LogL: -17839.619 / Time: 0h:20m:25s (0h:2m:21s left)
+Log-likelihood cutoff on original alignment: -17958.024
+Iteration 560 / LogL: -17854.420 / Time: 0h:20m:44s (0h:2m:2s left)
+Iteration 570 / LogL: -17827.717 / Time: 0h:21m:4s (0h:1m:43s left)
+Iteration 580 / LogL: -17843.096 / Time: 0h:21m:24s (0h:1m:24s left)
+Iteration 590 / LogL: -17844.676 / Time: 0h:21m:43s (0h:1m:5s left)
+Iteration 600 / LogL: -17827.664 / Time: 0h:22m:1s (0h:0m:45s left)
+Log-likelihood cutoff on original alignment: -17958.024
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+Iteration 610 / LogL: -17821.808 / Time: 0h:22m:21s (0h:2m:52s left)
+Iteration 620 / LogL: -17827.640 / Time: 0h:22m:41s (0h:2m:33s left)
+TREE SEARCH COMPLETED AFTER 625 ITERATIONS / Time: 0h:22m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -17803.001
+Optimal log-likelihood: -17802.993
+Rate parameters:  A-C: 1.00000  A-G: 2.43145  A-T: 1.00000  C-G: 1.00000  C-T: 4.56337  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.154  G: 0.271  T: 0.320
+Site proportion and rates:  (0.449,0.026) (0.181,0.287) (0.090,0.896) (0.141,1.612) (0.088,3.551) (0.051,6.211)
+Parameters optimization took 1 rounds (0.261 sec)
+BEST SCORE FOUND : -17802.993
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -17802.991 > -17802.993
+Alternative NNI shows better log-likelihood -17802.923 > -17802.993
+1.336 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 3-diatom_sequences_filter.trimal.fasta.splits.nex
+Total tree length: 12.504
+
+Total number of iterations: 625
+CPU time used for tree search: 1189.355 sec (0h:19m:49s)
+Wall-clock time used for tree search: 1191.705 sec (0h:19m:51s)
+Total CPU time used: 1371.705 sec (0h:22m:51s)
+Total wall-clock time used: 1373.984 sec (0h:22m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file 3-diatom_sequences_filter.trimal.fasta.splits.nex...
+418 taxa and 5389 splits.
+Consensus tree written to 3-diatom_sequences_filter.trimal.fasta.contree
+Reading input trees file 3-diatom_sequences_filter.trimal.fasta.contree
+Log-likelihood of consensus tree: -17807.094
+
+Analysis results written to: 
+  IQ-TREE report:                3-diatom_sequences_filter.trimal.fasta.iqtree
+  Maximum-likelihood tree:       3-diatom_sequences_filter.trimal.fasta.treefile
+  Likelihood distances:          3-diatom_sequences_filter.trimal.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          3-diatom_sequences_filter.trimal.fasta.splits.nex
+  Consensus tree:                3-diatom_sequences_filter.trimal.fasta.contree
+  Screen log file:               3-diatom_sequences_filter.trimal.fasta.log
+
+Date and Time: Mon Mar 31 15:21:42 2025

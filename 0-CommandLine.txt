@@ -14,7 +14,7 @@ trimal -in 2-diatom_sequences_forams.alignment.fasta  \
 # Generate tree
 	# IQ-TREE v2.3.6
 	
-iqtree2 -s 3-diatom_sequences_forams.trimal.fasta -alrt 1000 -bb 1000 -T 8
+iqtree2 -s 3-diatom_sequences_forams.trimal.fasta -alrt 1000 -bb 1000 -T AUTO
 
 # Rename IQ-TREE output
 
